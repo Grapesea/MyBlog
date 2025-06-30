@@ -1,6 +1,6 @@
 ---
 title: 本地预览Jekyll网站的步骤
-date: 2025-06-29
+date: 1970-01-01
 layout: post
 categories: [tools]
 mermaid: true 
