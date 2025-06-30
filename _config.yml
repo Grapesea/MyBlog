@@ -1,0 +1,95 @@
+# Configurations
+title:            Home
+longtitle:        Home
+author:           Grapesea
+email:            chaseraurora5@gmail.com
+description: >
+  My Blog with the GitBook style, under test at the time being.
+
+version:          1.0
+gitbook_version:  3.2.3
+
+repository: Grapesea/My_Blog
+github_username: Grapesea
+url:              'https://Grapesea.github.io'
+baseurl:          '/My_Blog'
+rss:              RSS
+
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min:   1
+  h_max:   3
+
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# Disqus comments
+# disqushandler:            sighingnow
+
+exclude:
+  - _drafts
+  - vendor
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - LICENSE
+  - .gitignore
+
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year-:month-:day-:title:output_ext
+  pages:
+    output: true
+    permalink: /:path/
+  others:
+    output: true
+    permalink: /:path/
+
+ordered_collections:
+  - posts
+  - pages
+  - others
+
+nav_links:
+  - title: "文章分类"
+    url: "/categories/"
+  - title: "归档"
+    url: "/archive/"
+  - title: "友链"
+    url: "/about/"
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
