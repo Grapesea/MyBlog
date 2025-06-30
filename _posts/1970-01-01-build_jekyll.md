@@ -7,10 +7,20 @@ mermaid: true
 mathjax: true
 ---
 
-> 本文由Claude 4.0 Sonnet生成，我在校网环境下+Jego插件的rules-Seattle1线路下成功在PowerShell里运行了bundle install，花了一天驯服环境配置.
+> 本文基本由Claude 4.0 Sonnet生成，我在校网环境下+Jego插件的rules-Seattle1线路下成功在PowerShell里运行了bundle install，花了一天驯服环境配置.
 
 
 要在本地预览Jekyll网站，你需要安装Jekyll和相关依赖。以下是详细步骤：
+
+## 0. 将博客项目clone到本地
+
+选择一个你喜欢的路径，然后用管理员权限打开powershell
+
+```powershell
+cd 你选择的路径
+
+git clone https://github.com/your_username/your_blog_repo.git
+```
 
 ## 1. 安装Ruby和Jekyll
 

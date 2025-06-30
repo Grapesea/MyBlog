@@ -44,7 +44,9 @@ markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # Disqus comments
 # disqushandler:            sighingnow
-
+include:
+  - assets
+  
 exclude:
   - _drafts
   - vendor
