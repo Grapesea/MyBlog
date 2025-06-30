@@ -4,7 +4,7 @@ source 'http://gems.ruby-china.com/'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem "jekyll",
-gem "minima", "~> 2.5"
+gem "minima",
 gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-feed'
 gem 'jekyll-readme-index'
