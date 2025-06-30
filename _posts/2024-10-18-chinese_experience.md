@@ -9,4 +9,6 @@ mathjax: true
 
 将会把自己之前写的那份1.2w字的东西搬运过来.
 
-<embed src="../assets/pdfs/ch_exp.pdf" type="application/pdf" width="100%" height="500" />
+<a href="https://github.com/Grapesea/MyBlog/blob/main/assets/pdfs/ch_exp.pdf" 
+download="ch_exp.pdf" class="pdf-download-btn" >本文pdf下载</a>
+
