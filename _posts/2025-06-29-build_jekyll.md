@@ -11,7 +11,7 @@ mathjax: true
 
 ## 1. 安装Ruby和Jekyll
 
-### Windows上安装Ruby：
+### Windows上安装Ruby： 
 
 ```powershell
 # 下载并安装 RubyInstaller
