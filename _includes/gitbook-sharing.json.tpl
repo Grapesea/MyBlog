@@ -6,5 +6,4 @@
               {% else %}
                 "github_link": "https://github.com",
               {% endif %}
-              "all": ["github"]
             },
