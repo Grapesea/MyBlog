@@ -7,6 +7,9 @@ mermaid: true
 mathjax: true
 ---
 
+> 本文由Claude 4.0 Sonnet生成，我在校网环境下+Jego插件的rules-Seattle1线路下成功在PowerShell里运行了bundle install，花了一天驯服环境配置.
+
+
 要在本地预览Jekyll网站，你需要安装Jekyll和相关依赖。以下是详细步骤：
 
 ## 1. 安装Ruby和Jekyll
@@ -102,3 +105,4 @@ bundle install
 - `_includes/`：可重用的页面组件
 
 现在你可以愉快地编辑Jekyll网站并实时预览效果了！
+
