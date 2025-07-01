@@ -77,6 +77,30 @@ bundle exec jekyll serve --livereload
 bundle exec jekyll serve --port 3000
 ```
 
+如果想要同时为每个仓库指定不同端口：
+
+```powershell
+# 第一个仓库（默认端口4000）
+cd "第一个仓库路径"
+bundle exec jekyll serve
+
+# 第二个仓库（端口4001）
+cd "第二个仓库路径"  
+bundle exec jekyll serve --port 4001
+
+# 第三个仓库（端口4002）
+cd "第三个仓库路径"
+bundle exec jekyll serve --port 4002
+```
+
+访问地址：
+
+第一个仓库：http://localhost:4000
+
+第二个仓库：http://localhost:4001
+
+第三个仓库：http://localhost:4002
+
 ## 4. 访问本地网站
 
 打开浏览器访问：`http://localhost:4000`
