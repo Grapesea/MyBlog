@@ -66,7 +66,7 @@ download="ch_exp.pdf" class="pdf-download-btn" >本文pdf下载</a>
 
 这一本是我用于刷语法填空的，据说曾经是$hez$的暑假作业之一，考察方向跟现在相比可能并不完全契合：
 
-<img src="..\photos\english_exp\1.webp" style="zoom:15%;" />
+<center><img src="..\photos\english_exp\1.webp" style="zoom:15%;" /></center>
 
 
 
@@ -160,49 +160,49 @@ $\text{Reading Explorer}$ （这一套书籍由美国国家地理出版，个人
 >
 > $2023.12~ \text{Z}20$： （$31.5$）
 
-<img src="..\photos\english_exp\2.jpg" alt="Z20 1" style="zoom:30%;" />
+<center><img src="..\photos\english_exp\2.jpg" alt="Z20 1" style="zoom:30%;" /></center>
 
 
 
 > $2024.1$ 最后一卷：（$33.5$）
 
-<img src="..\photos\english_exp\3.jpg" style="zoom: 20%;" />
+<center><img src="..\photos\english_exp\3.jpg" style="zoom: 20%;" /></center>
 
-<img src="..\photos\english_exp\4.jpg" alt="微信图片_20250117214214" style="zoom:25%;" />
+<center><img src="..\photos\english_exp\4.jpg" alt="微信图片_20250117214214" style="zoom:25%;" /></center>
 
 
 
 > $2024.4$ 杭二模：（$34$）
 
-<img src="..\photos\english_exp\5.jpg"  style="zoom: 20%;" />
+<center><img src="..\photos\english_exp\5.jpg"  style="zoom: 20%;" /></center>
 
-<img src="..\photos\english_exp\6.jpg" alt="hem 2" style="zoom:30%;" />
+<center><img src="..\photos\english_exp\6.jpg" alt="hem 2" style="zoom:30%;" /></center>
 
 > 我的某一份续写+应用文：（内容大概是$30-32$分水平）
 
-<img src="..\photos\english_exp\7.jpg" alt="微信图片_20250116231140" style="zoom:30%;" />
+<center><img src="..\photos\english_exp\7.jpg" alt="微信图片_20250116231140" style="zoom:30%;" /></center>
 
-<img src="..\photos\english_exp\8.jpg" alt="微信图片_20250116231152" style="zoom:27%;" />
+<center><img src="..\photos\english_exp\8.jpg" alt="微信图片_20250116231152" style="zoom:27%;" /></center>
 
 > $\text{@Afterglow}$ 的一份手写笔记：
 
-<img src="..\photos\english_exp\9.jpg" style="zoom:25%;" />
+<center><img src="..\photos\english_exp\9.jpg" style="zoom:25%;" /></center>
 
 #### 整卷教辅
 
 <u>不推荐：</u>各地模拟卷汇总（如下），优质试卷的比例太低，仅建议做一下浙江的某些高质量模拟卷。不过，可以拿来看看作文话题；
 
-<img src="..\photos\english_exp\11.png" alt="2" style="zoom:15%;" />
+<center><img src="..\photos\english_exp\11.png" alt="2" style="zoom:15%;" /></center>
 
 ​				金考卷的百校联盟（如下），客观题的出题非常糟糕，最多看看作文话题；
 
-<img src="..\photos\english_exp\10.png" alt="1" style="zoom:10%;" />
+<center><img src="..\photos\english_exp\10.png" alt="1" style="zoom:10%;" /></center>
 
 <u>推荐：</u>必刷卷/天星的高考10​年真题总编，图就不放了；
 
 ​    		教育部出品的新高考适应卷，但可能得等2025​年增补版；
 
-<img src="..\photos\english_exp\12.jpg" alt="3" style="zoom:10%;" />
+<center><img src="..\photos\english_exp\12.jpg" alt="3" style="zoom:10%;" /></center>
 
 ###  推荐网络资料
 
@@ -263,7 +263,7 @@ $\text{bilibili}$上有很多无需大会员就可以获得的英剧资源，如
 
 ###  一些提升效率的小技巧
 
-#### 如何高效使用无线耳机和$\bold{MP3}$练习听力（校内，$\bold{if ~ possible}$）
+#### 如何高效使用无线耳机和MP3练习听力（校内，if possible）
 
 首先，**为了不与自己的自控能力斗智斗勇**，请购买一台无法联网，仅能开蓝牙功能的低配$\text{MP3}$.
 
