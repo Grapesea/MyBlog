@@ -7,6 +7,13 @@ mermaid: true
 mathjax: true
 ---
 
+> ##### WARNING
+>
+> 本文的写作时间是2025.1，部分信息可能过时，请加以甄别.
+{: .block-warning }
+
+
+
 <a href="https://github.com/Grapesea/MyBlog/blob/main/assets/pdfs/en_exp.pdf" 
 download="ch_exp.pdf" class="pdf-download-btn" >本文pdf下载</a>
 
@@ -141,7 +148,7 @@ $\text{Reading Explorer}$ （这一套书籍由美国国家地理出版，个人
 
 对于考场书写笔的选择，请参考微信公众号$@$$\text{Genius}$的英语实验室 的文章：
 
-[(多图预警！！)英语作文用笔测评 | 试了8种笔，我终于发现......](https://mp.weixin.qq.com/s/2ztWrtNBEsmwn5XiOJAxyg  "(多图预警！！)英语作文用笔测评 | 试了8种笔，我终于发现......")
+[(多图预警！！)英语作文用笔测评 试了8种笔，我终于发现......](https://mp.weixin.qq.com/s/2ztWrtNBEsmwn5XiOJAxyg )
 
 本人使用的是三菱$\text{(uni) pin}$，建议粗细在$\text{0.5-0.7mm}$均可~~（因为最后都会被磨粗到无法区分）~~.
 
@@ -496,9 +503,10 @@ $⑤$对待日常练习的作文，我**极为建议**使用$\text{ChatGPT}$进�
 
 这半年里尤其值得记录的是一只可爱的奶牛小猫。她愿意在寒假末尾我返校的时候陪我度过一个上午，又在我独自自修的周末争抢我的鱿鱼干（ 一想到这些还是很治愈的，但是前几天回学校的时候猫猫已经不见了。嗯，一定是为了我才在糕住半年吧，我自私地想着。
 
-<img src="..\photos\english_exp\13.png"  style="zoom:13%;" />
 
-​						                                        	<center><font color= #DCDCDC>奶牛小猫好！</font></center>
+
+<center><img src="..\photos\english_exp\13.png"  style="zoom:13%;" /></center>
+<center><font color="#DCDCDC">奶牛小猫好！</font></center>
 
 这些日子很快过去，高考倒计时很快用尽。在最后的$20$天里，我经常跟好朋友翘掉活动课去打乒乓跑步，也时常溜出四进躲到二进一楼的自修教室（其实只是想找个自己的空间）。为了尽可能减轻对未知的焦虑，我按照$3.1$所述的方法为自己安排了一些“仿真考”。后来证明，效果还不错。等到高考前夕，**我为了战胜自己首考时英语听力的$\text{ptsd}$报名了试音员，虽然花掉了最后一个晚上的$2h$时间，却让自己莫名克服了现场恐惧（最后英语客观题全对了）。**
 

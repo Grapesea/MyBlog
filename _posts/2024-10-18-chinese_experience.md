@@ -7,6 +7,11 @@ mermaid: true
 mathjax: true
 ---
 
+> ##### WARNING
+>
+> 本文的主要写作时间是2024年7月-11月，部分信息可能过时，请加以甄别.
+{: .block-warning }
+
 将会把自己之前写的那份1.2w字的东西搬运过来.
 
 <a href="https://github.com/Grapesea/MyBlog/blob/main/assets/pdfs/ch_exp.pdf" 
