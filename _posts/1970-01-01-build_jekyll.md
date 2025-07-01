@@ -22,6 +22,12 @@ cd 你选择的路径
 git clone https://github.com/your_username/your_blog_repo.git
 ```
 
+如果不想要以往的git记录，可以使用浅克隆：
+
+```powershell
+git clone --depth 1 https://github.com/your_username/your_blog_repo.git
+```
+
 ## 1. 安装Ruby和Jekyll
 
 ### Windows上安装Ruby： 
