@@ -70,11 +70,8 @@ bundle exec jekyll serve
 # 或者直接使用
 jekyll serve
 
-# 带实时重载（推荐）
-bundle exec jekyll serve --livereload
-
-# 指定端口（如果4000端口被占用）
-bundle exec jekyll serve --port 3000
+# 带实时重载+ 指定端口（如果4000端口被占用）
+bundle exec jekyll serve --livereload --port 3000
 ```
 
 如果想要同时为每个仓库指定不同端口：
