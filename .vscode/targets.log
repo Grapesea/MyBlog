@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 05 14:17:15 2025
+# Make data base, printed on Tue Jul 08 00:04:57 2025
 
 # Variables
 
@@ -25,7 +25,7 @@ LOCALAPPDATA = C:\Users\29354\AppData\Local
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
-VSCODE_CWD = C:\Users\29354\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = G:\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -43,7 +43,7 @@ CCHZPATH = E:\CTEX\CTeX\cct\fonts
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19708_KGSDFVFPDKYJXMGR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18188_HHQDXDGTDWSTJOIL
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -97,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 SSL_CERT_FILE = E:\My_Blog\ssl\cacert.pem
 # environment
-VSCODE_PID = 19708
+VSCODE_PID = 18188
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -107,7 +107,7 @@ SSL_CERT_DIR = E:\Ruby32-x64\ssl
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"C:\\Users\\29354\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","locale":"en","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"G:\\Microsoft VS Code\\resources\\app\\out\\nls.messages.json","locale":"en","availableLanguages":{}}
 # environment
 ONEDRIVECONSUMER = C:\Users\29354\OneDrive
 # default
@@ -135,7 +135,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = E:\Ruby32-x64\bin;E:\Ruby34-x64\bin;%JAVA_HOME&\bin;E:\bin\;G:\MinGW\bin;E:\texlive\2025\bin\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\netcat;C:\Program Files\dotnet\;E:\CTEX\UserData\miktex\bin;E:\CTEX\MiKTeX\miktex\bin\x64;E:\CTEX\CTeX\ctex\bin;E:\CTEX\CTeX\cct\bin;E:\CTEX\CTeX\ty\bin;E:\CTEX\Ghostscript\gs10.01.1\bin;E:\CTEX\WinEdt;E:\minGW64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Pandoc\;E:\Git\cmd;E:\matlab\runtime\win64;E:\matlab\bin;e:\cursor\resources\app\bin;C:\ProgramData\chocolatey\bin;C:\Users\29354\AppData\Local\Programs\Python\Launcher\;e:\Trae CN\bin;C:\Users\29354\Downloads\gytx_x86_64-14.2.0-win32-seh-ucrt\mingw64\bin;C:\Users\29354\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\29354\AppData\Local\Programs\Python\Python312\;C:\Users\29354\AppData\Local\Microsoft\WindowsApps;C:\Users\29354\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\29354\AppData\Local\Programs\Microsoft VS Code\bin;C:\Dev-Cpp\bin;C:\Users\29354\AppData\Local\GitHubDesktop\bin;C:\User\29354\Downloads\SDL2-devel-2.30.10-VC\SDL2-2.30.10\lib\x64;C:\Program Files (x86)\Prince\engine\bin;E:\MikTeX\miktex\bin\x64\;G:\MinGW\bin;E:\cursor\resources\app\bin;E:\Nmap
+PATH = E:\Ruby32-x64\bin;E:\Ruby34-x64\bin;%JAVA_HOME&\bin;E:\bin\;G:\MinGW\bin;E:\texlive\2025\bin\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\netcat;C:\Program Files\dotnet\;E:\CTEX\UserData\miktex\bin;E:\CTEX\MiKTeX\miktex\bin\x64;E:\CTEX\CTeX\ctex\bin;E:\CTEX\CTeX\cct\bin;E:\CTEX\CTeX\ty\bin;E:\CTEX\Ghostscript\gs10.01.1\bin;E:\CTEX\WinEdt;E:\minGW64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Pandoc\;E:\Git\cmd;E:\matlab\runtime\win64;E:\matlab\bin;e:\cursor\resources\app\bin;C:\ProgramData\chocolatey\bin;C:\Users\29354\AppData\Local\Programs\Python\Launcher\;e:\Trae CN\bin;C:\Users\29354\Downloads\gytx_x86_64-14.2.0-win32-seh-ucrt\mingw64\bin;C:\Users\29354\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\29354\AppData\Local\Programs\Python\Python312\;C:\Users\29354\AppData\Local\Microsoft\WindowsApps;C:\Users\29354\AppData\Local\JetBrains\Toolbox\scripts;C:\Dev-Cpp\bin;C:\Users\29354\AppData\Local\GitHubDesktop\bin;C:\User\29354\Downloads\SDL2-devel-2.30.10-VC\SDL2-2.30.10\lib\x64;C:\Program Files (x86)\Prince\engine\bin;E:\MikTeX\miktex\bin\x64\;G:\MinGW\bin;E:\cursor\resources\app\bin;E:\Nmap;G:\Microsoft VS Code\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -149,8 +149,7 @@ PROMPT = $P$G
 # environment
 CHOCOLATEYLASTPATHUPDATE = 133956886680674828
 # environment
-APPLICATION_INSIGHTS_NO_STA 
-TSBEAT = true
+APPLICATION_INSIGHTS_NO_STATSBEAT = true
 # environment
 LOGONSERVER = \\AURORA-CHASER-D
 # environment
@@ -173,12 +172,12 @@ USERDOMAIN = AURORA-CHASER-D
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# environment
+EFC_12044 = 1
 # makefile
 .DEFAULT_GOAL := 
 # default
 MAKE_VERSION := 4.4.1
-# environment
-EFC_5824 = 1
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
@@ -293,6 +292,6 @@ GNUmakefile:
 # strcache performance: lookups = 34 / hit rate = 8%
 # hash-table stats:
 # Load=31/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Sat Jul 05 14:17:15 2025
+# Finished Make data base on Tue Jul 08 00:04:57 2025
 
  
