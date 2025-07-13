@@ -40,3 +40,8 @@ Firefox令人讨厌的安全限制导致github都登陆不了。
 
 打开Firefox浏览器，能连接到github。
 
+## 运行.jar文件
+
+* ```bash
+  $ java -jar stegsolve.jar
+  ```
