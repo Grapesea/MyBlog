@@ -1,8 +1,11 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #afb8c8; /* 改为深灰色背景，与底框一致 */
+  color: #000000 ; 
+}
+.color-theme-1 .highlight {
+  background-color: #fbf6e3 !important; /* 浅灰色背景 */
 }
 .highlight .w {
   color: inherit;
