@@ -90,7 +90,7 @@
   font-weight: bold;
 }
 .highlight .s, .highlight .sb, .highlight .dl, .highlight .s2, .highlight .sh, .highlight .s1 {
-  background-color: #fff0f0;
+  background-color: inherit;
 }
 .highlight .sa {
   color: #080;
@@ -103,7 +103,7 @@
   color: #D42;
 }
 .highlight .si {
-  background-color: #eee;
+  background-color: inherit;
 }
 .highlight .se {
   color: #666;
@@ -111,7 +111,7 @@
 }
 .highlight .sr {
   color: #000;
-  background-color: #fff0ff;
+  background-color: inherit;
 }
 .highlight .ss {
   color: #A60;
@@ -174,5 +174,5 @@
 }
 .highlight .err {
   color: #F00;
-  background-color: #FAA;
+  background-color: inherit;
 }
