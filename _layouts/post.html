@@ -15,7 +15,45 @@
         {% endif %}
     </head>
     <body>
-        <div class="book">
+        <div class="book with-summary">
+
+            <!-- Category Sidebar -->
+            <div class="book-summary" id="categorySidebar">
+                <div class="summary-header">
+                    <h3>文章分类</h3>
+                </div>
+                <nav role="navigation">
+                    <ul class="summary">
+                        {% for category in site.categories %}
+                            <li class="category-group">
+                                <a href="#" class="category-header">
+                                    <i class="fa fa-folder"></i>
+                                    {{ category[0] }}
+                                    <span class="category-count">({{ category[1].size }})</span>
+                                </a>
+                                <ul class="category-posts">
+                                    {% for post in category[1] limit:10 %}
+                                        <li {% if page.url == post.url %}class="active"{% endif %}>
+                                            <a href="{{ post.url | relative_url }}" 
+                                               title="{{ post.title | escape }}">
+                                                {{ post.title | truncate: 40 }}
+                                                <small class="post-date">{{ post.date | date: "%m-%d" }}</small>
+                                            </a>
+                                        </li>
+                                    {% endfor %}
+                                    {% if category[1].size > 10 %}
+                                        <li class="show-more">
+                                            <a href="{{ '/categories/' | relative_url }}#{{ category[0] | slugify }}">
+                                                查看更多 ({{ category[1].size | minus: 10 }})
+                                            </a>
+                                        </li>
+                                    {% endif %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
 
             {%- include toc-date.html -%}
 
@@ -53,11 +91,194 @@
                 </div>
             </div>
 
+            <!-- Table of Contents (TOC) -->
+            <div class="toc-container" id="tocContainer">
+                <div class="toc-header">
+                    <h4><i class="fa fa-list"></i> 目录</h4>
+                    <button class="toc-toggle-btn" id="tocCollapseBtn">
+                        <i class="fa fa-minus"></i>
+                    </button>
+                </div>
+                <div class="toc-content" id="tocContent">
+                    <ul class="toc-list" id="tocList">
+                        <!-- TOC will be populated by JavaScript -->
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- TOC Toggle Button for Mobile -->
+            <button class="toc-mobile-toggle" id="tocMobileToggle">
+                <i class="fa fa-list"></i>
+            </button>
+
+            <!-- Category Sidebar Toggle for Mobile -->
+            <button class="category-mobile-toggle" id="categoryMobileToggle">
+                <i class="fa fa-bars"></i>
+            </button>
+
             <script>
             var gitbook = gitbook || [];
             gitbook.push(function() {
                 gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
             });
+
+            // Enhanced functionality
+            document.addEventListener('DOMContentLoaded', function() {
+                // Generate Table of Contents
+                generateTOC();
+                
+                // Initialize category sidebar
+                initializeCategorySidebar();
+                
+                // Handle TOC functionality
+                handleTOCFunctionality();
+                
+                // Handle mobile toggles
+                handleMobileToggles();
+                
+                // Handle scroll spy
+                handleScrollSpy();
+            });
+
+            function generateTOC() {
+                const tocList = document.getElementById('tocList');
+                if (!tocList) return;
+                
+                const content = document.querySelector('.markdown-section, .page-inner, .body-inner');
+                if (!content) return;
+                
+                const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                
+                if (headings.length === 0) {
+                    document.getElementById('tocContainer').style.display = 'none';
+                    return;
+                }
+                
+                headings.forEach((heading, index) => {
+                    // Add ID to heading if it doesn't have one
+                    if (!heading.id) {
+                        heading.id = 'heading-' + index;
+                    }
+                    
+                    // Create TOC item
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = '#' + heading.id;
+                    a.textContent = heading.textContent;
+                    a.className = 'toc-' + heading.tagName.toLowerCase();
+                    a.setAttribute('data-heading-id', heading.id);
+                    
+                    li.appendChild(a);
+                    tocList.appendChild(li);
+                });
+            }
+
+            function initializeCategorySidebar() {
+                const categoryHeaders = document.querySelectorAll('.category-header');
+                
+                categoryHeaders.forEach(header => {
+                    header.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const categoryGroup = this.parentElement;
+                        categoryGroup.classList.toggle('expanded');
+                    });
+                });
+
+                // Auto-expand current category
+                const activePost = document.querySelector('.category-posts .active');
+                if (activePost) {
+                    const categoryGroup = activePost.closest('.category-group');
+                    if (categoryGroup) {
+                        categoryGroup.classList.add('expanded');
+                    }
+                }
+            }
+
+            function handleTOCFunctionality() {
+                // TOC link clicks
+                const tocLinks = document.querySelectorAll('.toc-list a');
+                tocLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const targetId = this.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement) {
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
+                    });
+                });
+
+                // TOC collapse/expand
+                const collapseBtn = document.getElementById('tocCollapseBtn');
+                const tocContent = document.getElementById('tocContent');
+                
+                if (collapseBtn && tocContent) {
+                    collapseBtn.addEventListener('click', function() {
+                        tocContent.classList.toggle('collapsed');
+                        const icon = this.querySelector('i');
+                        icon.className = tocContent.classList.contains('collapsed') ? 'fa fa-plus' : 'fa fa-minus';
+                    });
+                }
+            }
+
+            function handleMobileToggles() {
+                const tocMobileToggle = document.getElementById('tocMobileToggle');
+                const categoryMobileToggle = document.getElementById('categoryMobileToggle');
+                const tocContainer = document.getElementById('tocContainer');
+                const categorySidebar = document.getElementById('categorySidebar');
+
+                if (tocMobileToggle) {
+                    tocMobileToggle.addEventListener('click', function() {
+                        tocContainer.classList.toggle('mobile-show');
+                    });
+                }
+
+                if (categoryMobileToggle) {
+                    categoryMobileToggle.addEventListener('click', function() {
+                        categorySidebar.classList.toggle('mobile-show');
+                    });
+                }
+
+                // Close on outside click
+                document.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        if (!tocContainer.contains(e.target) && !tocMobileToggle.contains(e.target)) {
+                            tocContainer.classList.remove('mobile-show');
+                        }
+                        if (!categorySidebar.contains(e.target) && !categoryMobileToggle.contains(e.target)) {
+                            categorySidebar.classList.remove('mobile-show');
+                        }
+                    }
+                });
+            }
+
+            function handleScrollSpy() {
+                const tocLinks = document.querySelectorAll('.toc-list a');
+                const headings = document.querySelectorAll('[id^="heading-"], h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+                
+                if (tocLinks.length === 0 || headings.length === 0) return;
+                
+                window.addEventListener('scroll', function() {
+                    let current = '';
+                    
+                    headings.forEach(heading => {
+                        const rect = heading.getBoundingClientRect();
+                        if (rect.top <= 100) {
+                            current = heading.id;
+                        }
+                    });
+                    
+                    tocLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + current) {
+                            link.classList.add('active');
+                        }
+                    });
+                });
+            }
             </script>
         </div>
 
