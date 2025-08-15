@@ -148,6 +148,7 @@
             function generateTOC() {
                 const tocList = document.getElementById('tocList');
                 if (!tocList) return;
+                tocList.innerHTML = '';
                 
                 const content = document.querySelector('.markdown-section, .page-inner, .body-inner');
                 if (!content) return;
