@@ -11,11 +11,11 @@
 
 /* .book .book-summary .chapter.expanded > .articles { */
 .book .book-summary .chapter.expanded ul {
-	max-height: 9999px;
+	max-height: 0px;
 }
 
 .book .book-summary .chapter.expanded li.expanded > ul {
-	max-height: 9999px !important;
+	max-height: 0px !important;
 }
 
 .book .book-summary .exc-trigger {
