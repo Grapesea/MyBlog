@@ -7,7 +7,7 @@ mermaid: true
 mathjax: true
 ---
 
-# Python笔记
+# 语法类
 
 ## re模块（正则表达式）
 
