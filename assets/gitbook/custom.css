@@ -1,5 +1,20 @@
 ---
 ---
+:root {
+  --c-warning: #e7c000;
+  --c-warning-bg: #fffbe6;
+  --c-warning-text: #6b5900;
+  --c-warning-title: #b29400;
+  --c-tip: #42b983;
+  --c-tip-bg: #e6f9f0;
+  --c-tip-text: #22543d;
+  --c-tip-title: #2c8f60;
+  --c-danger: #ff4d4f;
+  --c-danger-bg: #fff1f0;
+  --c-danger-text: #a8071a;
+  --c-danger-title: #d4380d;
+  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 .book-body {
     overflow-y: scroll;
@@ -59,6 +74,12 @@
 
 .book.color-theme-2 .book-body .book-header {
     background: #1c1f2b;
+}
+
+.book.color-theme-2 {
+  --c-tip-title: #42b983; /* 或其它适合深色背景的绿色 */
+  --c-warning-title:var(--c-warning);
+  --c-danger-title: #d4380d;
 }
 
 .page-inner {

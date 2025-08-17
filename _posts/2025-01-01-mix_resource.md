@@ -23,61 +23,53 @@ mathjax: true
 
 * **综合：**
 
-  【学习天地】每个学院各自有哪些宝藏公众号/网站呢？ https://www.cc98.org/topic/6106488 
+  [【学习天地】每个学院各自有哪些宝藏公众号/网站呢？](https://www.cc98.org/topic/6106488 )
 
-  【似水流年·寒假】分享一些“小网站” https://www.cc98.org/topic/6090805 
+  [【似水流年·寒假】分享一些“小网站”](https://www.cc98.org/topic/6090805 )
 
-  【竺可桢学院】>>竺院荣誉课程资源指路楼<< https://www.cc98.org/topic/5348583 
-
-
+  [【竺可桢学院】>>竺院荣誉课程资源指路楼<<](https://www.cc98.org/topic/5348583 )
 
 * **选课：**
 
-  【编程技术】Quantum 模块化工具箱 v1.1 发布 https://www.cc98.org/topic/6106675 
+  [【编程技术】Quantum 模块化工具箱 v1.1 发布](https://www.cc98.org/topic/6106675 )
 
-  【学习天地】MOTIS: 一款专注于辅助浙江大学学生优化选课课表的软件 https://www.cc98.org/topic/6106514 
-
-
+  [【学习天地】MOTIS: 一款专注于辅助浙江大学学生优化选课课表的软件](https://www.cc98.org/topic/6106514 )
 
 * **雪灾浙大相关应用：**
 
-  【学习天地】ZTA：zjuer的桌面端时间管理神器 https://www.cc98.org/topic/5988983 
+  [【学习天地】ZTA：zjuer的桌面端时间管理神器](https://www.cc98.org/topic/5988983 )
 
-  【学习天地】ZLA：帮你快速下载所有课件😋  [更新：v0.3.8] (tag：学在浙大 智云课堂) https://www.cc98.org/topic/5860105 
+  [【学习天地】ZLA：帮你快速下载所有课件😋  [更新：v0.3.8] (tag：学在浙大 智云课堂)](https://www.cc98.org/topic/5860105 )
 
-  【学习天地】火灾浙大：高速的雪灾浙大第三方 (tags: 学在浙大，简化软件) https://www.cc98.org/topic/6114449 
+  [【学习天地】火灾浙大：高速的雪灾浙大第三方 (tags: 学在浙大，简化软件)](https://www.cc98.org/topic/6114449 )
 
-
+<br/>
 
 #### CS学习
 
 * **cs学习经验：（含非科班前辈自学/国外课程自学经验）**
 
-  【一路走来】开个CS自学记录楼 https://www.cc98.org/topic/6100690   （机械专业的学长）
+  [【一路走来】开个CS自学记录楼](https://www.cc98.org/topic/6100690 )  （机械专业的学长）
 
-  【学习天地】CS61A网站登录相关（已经解决） https://www.cc98.org/topic/6096168 
-
-
+  [【学习天地】CS61A网站登录相关（已经解决）](https://www.cc98.org/topic/6096168 )
 
 * **cs排版：**
 
-  【学习天地】VSCode+MPE：远比LaTeX容易上手的排版工具——一份面向小白的Markdown排版教程 https://www.cc98.org/topic/6090584 
+  [【学习天地】VSCode+MPE：远比LaTeX容易上手的排版工具——一份面向小白的Markdown排版教程](https://www.cc98.org/topic/6090584 )
 
-  【科研学术】使用 Typst 完成毕业论文吧 —— 为什么 Typst 也许是泛 CS 选手更好的选择 https://www.cc98.org/topic/6067707 
+  [【科研学术】使用 Typst 完成毕业论文吧 —— 为什么 Typst 也许是泛 CS 选手更好的选择](https://www.cc98.org/topic/6067707)
 
-  【学习天地】Markdown 报告模板 https://www.cc98.org/topic/5983795 
+  [【学习天地】Markdown 报告模板](https://www.cc98.org/topic/5983795)
 
-  【新生宝典】迈出LaTeX第一步，边学边用的Overleaf使用指南 & 四个模版分享  (tag: 实验报告、通识、论文、军理、思政) https://www.cc98.org/topic/5929587 
+  [【新生宝典】迈出LaTeX第一步，边学边用的Overleaf使用指南 & 四个模版分享  (tag: 实验报告、通识、论文、军理、思政)](https://www.cc98.org/topic/5929587 )
 
-  【学习天地】适用于我校实验报告的 Typst 模板（如 FDS/ADS 大作业、数逻/计组实验报告等） https://www.cc98.org/topic/5840106 
-
-
+  [【学习天地】适用于我校实验报告的 Typst 模板（如 FDS/ADS 大作业、数逻/计组实验报告等）](https://www.cc98.org/topic/5840106 )
 
 * AI：
 
-  【学习天地】一个数学ai模型（from FDU） https://www.cc98.org/topic/6189388 
+  [【学习天地】一个数学ai模型（from FDU）](https://www.cc98.org/topic/6189388 )
 
-
+<br/>
 
 #### 前辈故事
 
@@ -89,59 +81,61 @@ mathjax: true
 
 ​			在cc98上以“混合”为关键词搜索，可以看到非常多的相关帖子。
 
+<br/>
 
+#### 外语学习
 
-#### 语言学
+​			[【学习天地】24-25春夏 托福写作笔记](https://www.cc98.org/topic/6203655) 
 
-​			【学习天地】24-25春夏 托福写作笔记 https://www.cc98.org/topic/6203655 
-
-
+<br/>
 
 ### 思政类资源整合
 
-#### 德法/史纲/四史/军理/习概/马原/毛概
+#### 德法/史纲/四史/军理/形策
 
-【学习天地】古希腊掌管思政的神【思政类备考指北】 https://www.cc98.org/topic/6095430 
+[【学习天地】古希腊掌管思政的神【思政类备考指北】](https://www.cc98.org/topic/6095430 )
 
-【学习天地】思政课经验分享(包括道法，史纲，党史，习概，毛概，军理) https://www.cc98.org/topic/6093564 
+[【学习天地】思政课经验分享(包括道法，史纲，党史，习概，毛概，军理)](https://www.cc98.org/topic/6093564 )
 
-【学习天地】大一思政类课程经验分享（思修，史纲，形策，军理，马原，习概，新中国史） https://www.cc98.org/topic/5939225 
+[【学习天地】大一思政类课程经验分享（思修，史纲，形策，军理，马原，习概，新中国史）](https://www.cc98.org/topic/5939225 )
 
-【学习天地】2024春社会主义发展史word整理及小测（tag：社发） https://www.cc98.org/topic/5859238 
+[【学习天地】2024春社会主义发展史word整理及小测（tag：社发）](https://www.cc98.org/topic/5859238)
 
-【学习天地】2023-2024春夏 中国近现代史纲要回忆卷（史纲） https://www.cc98.org/topic/5922118 
+[【学习天地】2023-2024春夏 中国近现代史纲要回忆卷（史纲）](https://www.cc98.org/topic/5922118 )
 
 （以上这个链接已经包含了非常多其它学期史纲的回忆卷）
 
-#### 形势与政策1
+#### 马原/毛概/习概
 
-NULL
+[【学习天地】理科生思政课分享指北（纯绩点向）【tag:思政，思修，史纲，马原，军理，毛概，习概，医学院】](https://www.cc98.org/topic/6233666)
 
 
+
+
+
+<br/>
 
 ### 我选过的通识课资源整合
 
 适用所有体育课，但未必是最新：
 
-【学习天地】26门体育课体育理论考试题库 https://www.cc98.org/topic/5601304 
+[【学习天地】26门体育课体育理论考试题库](https://www.cc98.org/topic/5601304 )
 
 #### 足球（初级）
 
-【学习天地】体育理论 足球 题库懒人排序版本 https://www.cc98.org/topic/6057328 
+[【学习天地】体育理论 足球 题库懒人排序版本](https://www.cc98.org/topic/6057328 )
 
 #### 经济法理论与实务 周黎明
 
-
-
-
+<br/>
 
 ### 汉语言微辅修资源整理
 
-SocraLin前辈的网站：
+SocraLin前辈的网站：[林榆雁的博客 | Socra Lin's Blog](https://socralin.github.io/)
 
-【学习天地】汉语言文学专业必修课经验分享（plz语言学基础、hq/zsx文学理论、zgh/zyj现当代文学史12、zy/xxt古代文学史12、cch现汉、btg古汉1） https://www.cc98.org/topic/6229591 复制本链接，打开【CC98】微信小程序，直接查看本帖！
+[【学习天地】汉语言文学专业必修课经验分享（plz语言学基础、hq/zsx文学理论、zgh/zyj现当代文学史12、zy/xxt古代文学史12、cch现汉、btg古汉1）](https://www.cc98.org/topic/6229591)
 
-
+<br/>
 
 ## 大一上
 
@@ -161,17 +155,15 @@ https://www.overleaf.com/read/pknfvnvcsqbr#c520ef
 
 https://www.overleaf.com/read/mxcnzqypwryn#970830 
 
-
-
 数院的期末题：
 
-【数学之韵】2023-2024秋冬学期数学分析I期末回忆卷 https://www.cc98.org/topic/5798353 
+[【数学之韵】2023-2024秋冬学期数学分析I期末回忆卷](https://www.cc98.org/topic/5798353 )
 
-
+<br/>
 
 ### 线性代数I(H)
 
-
+LALU的GitHub仓库：[yhwu-is/Linear-Algebra-Left-Undone: 线性代数：未竟之美](https://github.com/yhwu-is/Linear-Algebra-Left-Undone)
 
 竺院辅学官网： 
 
@@ -179,45 +171,31 @@ https://ckc-agc.bowling233.top/algebra/
 
 自己整理的笔记（未完） 
 
-https://www.overleaf.com/read/bqfcdfsrjxsn#59fdf3 
+[线代I H-1](https://www.overleaf.com/read/bqfcdfsrjxsn#59fdf3 )       [线代I H-2](https://www.overleaf.com/read/qkkjrbgrmkdd#0a8619)       [线代II H](https://www.overleaf.com/read/kdgmrpnbgrwq#4c3b1b)
 
-https://www.overleaf.com/read/qkkjrbgrmkdd#0a8619
-
-
-
-【学习天地】线性代数（甲）的讲义，以及一些感悟 https://www.cc98.org/topic/5795312 
-
-（这位学长后来写了大名鼎鼎的LALU辅学讲义。）
-
-
+<br/>
 
 ### 程序设计与算法基础
 
-【学习天地】C程（24-25秋冬竺院yj C程） 
+[【学习天地】C程（24-25秋冬竺院yj C程）](https://www.cc98.org/topic/6093837 )
 
-​						https://www.cc98.org/topic/6093837 
+[【学习天地】程算/程设/C尖/C程/程序设计与算法基础 PTA作业题/实验题整理 ](https://www.cc98.org/topic/6082745 )
 
-【学习天地】程算/程设/C尖/C程/程序设计与算法基础 PTA作业题/实验题整理 
-
-​						https://www.cc98.org/topic/6082745 
-
- 竺院辅学官网： 
-
-https://ckc-agc.bowling233.top/programming/ 
+[竺院辅学官网](https://ckc-agc.bowling233.top/programming/ )
 
 一些前辈学长的网站： 
 
-https://note.tonycrane.cc/cs/pl/c_cpp/c/ 
+[TonyCrane的小题整理](https://note.tonycrane.cc/cs/pl/c_cpp/c/ )
 
-https://zju-turing.github.io/TuringCourses/major_basic/programming/
+[图灵班辅学指南](https://zju-turing.github.io/TuringCourses/major_basic/programming/)
 
 
 
-### 普通化学
+### 普通化学(H)
 
 2024年秋冬学期期末划重点：
 
-【学习天地】普通化学（H）/普化/普化H/普化甲 fwj班整本书划重点（30min速通版） https://www.cc98.org/topic/6086622 
+[【学习天地】普通化学（H）/普化/普化H/普化甲 fwj班整本书划重点（30min速通版）](https://www.cc98.org/topic/6086622 )
 
 
 
@@ -225,41 +203,41 @@ https://zju-turing.github.io/TuringCourses/major_basic/programming/
 
 ### 期中期末救命楼&混合图灵/计算机的资源合订本
 
-【学习天地】混计/图灵 期中资料楼 https://www.cc98.org/topic/6161330 
+[【学习天地】混计/图灵 期中资料楼](https://www.cc98.org/topic/6161330 )
 
-【学习天地】500帖成年&24-25春夏CS期末补天复习资源指路（tag：计科/cs/形策/经济法/微积分/宏经/马原/大物乙/史纲/离散/数逻/FDS） https://www.cc98.org/topic/6205362 
+[【学习天地】500帖成年&24-25春夏CS期末补天复习资源指路（tag：计科/cs/形策/经济法/微积分/宏经/马原/大物乙/史纲/离散/数逻/FDS）](https://www.cc98.org/topic/6205362 )
 
-【学习天地】混计/图灵 期末资料楼 https://www.cc98.org/topic/6201045 
+[【学习天地】混计/图灵 期末资料楼](https://www.cc98.org/topic/6201045 )
 
 
 
 Miracle前辈的资源整理：
 
-【学习天地】混合 大一下 期末复习资料整理（关键词：形策  线代II  数逻  数分II  普物实验  普化实验  普物I） https://www.cc98.org/topic/5923936 
+[【学习天地】混合 大一下 期末复习资料整理（关键词：形策  线代II  数逻  数分II  普物实验  普化实验  普物I）](https://www.cc98.org/topic/5923936 )
 
-【学习天地】混合 大一下 （线代II答案，普物、普化实验报告，计科资源指路） https://www.cc98.org/topic/5937888 
+[【学习天地】混合 大一下 （线代II答案，普物、普化实验报告，计科资源指路）](https://www.cc98.org/topic/5937888 )
 
 
 
-【学习天地】混合/CS 大二上课程总结（概统 、普物II、普物实验II、FDS、数逻、英语演讲艺术、DIP、无线网络应用、军理、无线网络应用、混研I、社会主义发展史、马原H、创新创业实践启蒙、游泳） https://www.cc98.org/topic/5821669  （事实上这个帖的专业课更像是我大一下的选课）
+[【学习天地】混合/CS 大二上课程总结（概统 、普物II、普物实验II、FDS、数逻、英语演讲艺术、DIP、无线网络应用、军理、无线网络应用、混研I、社会主义发展史、马原H、创新创业实践启蒙、游泳）](https://www.cc98.org/topic/5821669)  （事实上这个帖的专业课更像是我大一下的选课）
 
-【学习天地】【2023-2024秋冬】大二上，43.5学分，课程修读的体验与一些建议（数模，数逻，数值分析/NA，图像信息处理/dip，数据结构基础，大物乙，微信小程序，人工智能初步，心理学及应用，创业实践） https://www.cc98.org/topic/5805806 
+[【学习天地】【2023-2024秋冬】大二上，43.5学分，课程修读的体验与一些建议（数模，数逻，数值分析/NA，图像信息处理/dip，数据结构基础，大物乙，微信小程序，人工智能初步，心理学及应用，创业实践）](https://www.cc98.org/topic/5805806 )
 
 
 
 2022级：
 
-【学习天地】混合班大一下课程经验分享（普通物理学I（H）、数学分析（甲）II（H）、线性代数II（H）、工程图学（H）、C程序设计专题、普通化学实验、普通物理实验） https://www.cc98.org/topic/5650124 
+[【学习天地】混合班大一下课程经验分享（普通物理学I（H）、数学分析（甲）II（H）、线性代数II（H）、工程图学（H）、C程序设计专题、普通化学实验、普通物理实验）](https://www.cc98.org/topic/5650124 )
 
 
 
 2024级：
 
-【学习天地】大一春夏 混合 课程总结（tag:普通物理学I（H）/普物/线代/电工训/数分/普化实验/混研/生科导/工图/体素/普物实验/常微分方程/游泳(初级)/形策/经济法理论与实务/新中国史) https://www.cc98.org/topic/6222811 
+[【学习天地】大一春夏 混合 课程总结（tag:普通物理学I（H）/普物/线代/电工训/数分/普化实验/混研/生科导/工图/体素/普物实验/常微分方程/游泳(初级)/形策/经济法理论与实务/新中国史)](https://www.cc98.org/topic/6222811 )
 
-【学习天地】计科 大一下 课程总结与分享（tags：数分2H / 线代2H / 普物1H / 数据结构基础 / 计算机系统I / 离散数学理论基础 / 职业生涯与发展规划） https://www.cc98.org/topic/6227797     
+[【学习天地】计科 大一下 课程总结与分享（tags：数分2H / 线代2H / 普物1H / 数据结构基础 / 计算机系统I / 离散数学理论基础 / 职业生涯与发展规划）](https://www.cc98.org/topic/6227797 ) 
 
-【学习天地】大一小登500帖&混合班计科 大一学年 课程总结与资源分享（tag：混计/数分1H/数分2H/线代1H/线代2H/普化H/普物1H/普化实验/普物实验1/离散数学/程算/fds/数逻/社发史/百万立方/心理学及应用/经济法/心理卫生/博弈论） https://www.cc98.org/topic/6228525 
+[【学习天地】大一小登500帖&混合班计科 大一学年 课程总结与资源分享（tag：混计/数分1H/数分2H/线代1H/线代2H/普化H/普物1H/普化实验/普物实验1/离散数学/程算/fds/数逻/社发史/百万立方/心理学及应用/经济法/心理卫生/博弈论）](https://www.cc98.org/topic/6228525 )
 
 
 
@@ -267,43 +245,37 @@ Miracle前辈的资源整理：
 
 ### 数学分析甲II(H)
 
-竺院辅学官网： 
+* 辅学指南
 
-https://ckc-agc.bowling233.top/analysis/ 
+  竺院辅学官网： 
 
-图灵班指南：
+  https://ckc-agc.bowling233.top/analysis/ 
 
-[数学分析（甲）Ⅱ（H） - 图灵班学习指南](https://zju-turing.github.io/TuringCourses/math_phys/math_analysis2/)
+  图灵班指南：
 
+  [数学分析（甲）Ⅱ（H） - 图灵班学习指南](https://zju-turing.github.io/TuringCourses/math_phys/math_analysis2/)
 
+* 小测：
 
-小测：
+  (test1)
 
-(test1)
+  2025：[【学习天地】数学分析甲II（H）小测1LaTeX排版（一题一页）（Tag:数分 数分H 数学分析 小测 test）](https://www.cc98.org/topic/6147175 )
 
-2025：
+  
 
-【学习天地】数学分析甲II（H）小测1LaTeX排版（一题一页）（Tag:数分 数分H 数学分析 小测 test） https://www.cc98.org/topic/6147175 
+  (test2)
 
+  2021和2022：http://www.cc98.org/topic/5327281 
 
+  2024：http://www.cc98.org/topic/5895607
 
-(test2))
-
-2021和2022：http://www.cc98.org/topic/5327281 
-
-2024：http://www.cc98.org/topic/5895607
-
-2025：【学习天地】(LaTeX重制)25春夏数学分析甲II(H)小测2（tag：数分H，数分h，数分2h，数分小测） https://www.cc98.org/topic/6181578 
+  2025：[【学习天地】(LaTeX重制)25春夏数学分析甲II(H)小测2（tag：数分H，数分h，数分2h，数分小测）](https://www.cc98.org/topic/6181578 )
 
 
 
 ### 线性代数II(H)
 
-竺院辅学官网： 
-
-https://ckc-agc.bowling233.top/algebra/ 
-
-
+[竺院辅学官网](https://ckc-agc.bowling233.top/algebra/ )
 
 线性代数应该怎样学（LADR）课后习题解析：
 
@@ -313,13 +285,13 @@ https://ckc-agc.bowling233.top/algebra/
 
 2024级吴志祥班两份期中：
 
-【学习天地】2025春夏线性代数II（H）期中试卷2份及部分题目溯源（tag: wzx 吴志祥 线代H 线代II 线代2 线代 线代期中） https://www.cc98.org/topic/6169816 
+[【学习天地】2025春夏线性代数II（H）期中试卷2份及部分题目溯源（tag: wzx 吴志祥 线代H 线代II 线代2 线代 线代期中）](https://www.cc98.org/topic/6169816 )
 
 
 
 2024级期末考前练习：
 
-【学习天地】线性代数II(H)考前练习三份（大帝班+吴爷爷班）（Tag: 线代H，线代II，线代2） https://www.cc98.org/topic/6198764 
+[【学习天地】线性代数II(H)考前练习三份（大帝班+吴爷爷班）（Tag: 线代H，线代II，线代2）](https://www.cc98.org/topic/6198764 )
 
 
 
@@ -331,19 +303,15 @@ https://ckc-agc.bowling233.top/algebra/
 
 **混合22/23级学长们编写的讲义：**
 
-https://crazyspotteddove.github.io/projects/zju-gpa/
-
-
+[GitHub地址](https://crazyspotteddove.github.io/projects/zju-gpa/)
 
 **常用单词列表：**
 
-【学习天地】普通物理学I（H）的常用单词列表 https://www.cc98.org/topic/5921233 
-
-
+[【学习天地】普通物理学I（H）的常用单词列表](https://www.cc98.org/topic/5921233 )
 
 **教材习题答案：**
 
-【学习天地】求普物I H教材的课后习题答案文档  https://www.cc98.org/topic/6098991 
+[【学习天地】求普物I H教材的课后习题答案文档](https://www.cc98.org/topic/6098991 )
 
 
 
@@ -389,13 +357,15 @@ https://crazyspotteddove.github.io/projects/zju-gpa/
 
 其他推荐资源：
 
-【学习天地】2025 大学物理甲I 谢小平 AB班小测及答案汇总 【tag：xxp 大物 大雾 小测 大物甲】 https://www.cc98.org/topic/6213505 
+[【学习天地】2025 大学物理甲I 谢小平 AB班小测及答案汇总 【tag：xxp 大物 大雾 小测 大物甲】](https://www.cc98.org/topic/6213505 )
 
-【学习天地】大学物理I公式速查表 （tags: 大物 大学物理 公式 小测 期中 期末） https://www.cc98.org/topic/6215135 
+[【学习天地】大学物理I公式速查表 （tags: 大物 大学物理 公式 小测 期中 期末）](https://www.cc98.org/topic/6215135 )
 
 
 
 ### 普通物理学实验I
+
+期末考试占比30%，看起来不多但我被狠狠创死了啊啊啊啊啊.
 
 需要注意的是，普物实验和大物实验是同一套体系（我也不知道为什么会分开来选课，老师是共享的，实验内容也是完全一样的）
 
@@ -403,13 +373,11 @@ https://crazyspotteddove.github.io/projects/zju-gpa/
 
 实验报告：
 
-【学习天地】普物实验二电子版混合实验报告LaTeX模板 https://www.cc98.org/topic/5983253 
+[【学习天地】普通物理学实验I（普物实验I）部分老师和实验分享介绍（含实验报告）](https://www.cc98.org/topic/5537180 )
 
-【学习天地】普通物理学实验I（普物实验I）部分老师和实验分享介绍（含实验报告） https://www.cc98.org/topic/5537180 
+[【学习天地】大学物理实验报告（大物实验报告）](https://www.cc98.org/topic/6076104 )
 
-【学习天地】大学物理实验报告（大物实验报告） https://www.cc98.org/topic/6076104 
-
-【学习天地】2024秋冬 大学物理实验报告（tag：大学物理实验，大物实验，实验报告） https://www.cc98.org/topic/6192967 
+[【学习天地】2024秋冬 大学物理实验报告（tag：大学物理实验，大物实验，实验报告）](https://www.cc98.org/topic/6192967 )
 
 
 
@@ -549,21 +517,21 @@ Winmelon的经验总结：
 
 Memset0佬的经验总结：
 
-【学习天地】CS大一下课程笔记与学习经验分享（数据结构基础/FDS、离散数学及其应用/离散、数字逻辑设计/数逻）（关联：计算机科学与技术） https://www.cc98.org/topic/5933289 
+[【学习天地】CS大一下课程笔记与学习经验分享（数据结构基础/FDS、离散数学及其应用/离散、数字逻辑设计/数逻）（关联：计算机科学与技术）](https://www.cc98.org/topic/5933289 )
 
 
 
 **历年卷：**
 
-【学习天地】2022-2023秋冬 数据结构基础/fds 期末考试/回忆卷/历年卷 https://www.cc98.org/topic/5507473  
+[【学习天地】2022-2023秋冬 数据结构基础/fds 期末考试/回忆卷/历年卷](https://www.cc98.org/topic/5507473  )
 
-【学习天地】PTA上20-21秋冬《数据结构基础》期末（fds/ds期末）试卷 https://www.cc98.org/topic/5232933 
+[【学习天地】PTA上20-21秋冬《数据结构基础》期末（fds/ds期末）试卷](https://www.cc98.org/topic/5232933 )
 
 
 
 **数院的数据结构与算法：**
 
-【学习天地】数据结构和算法 知识梳理及资源分享（补充标签：DSA、数据结构、数据结构与算法分析、数据结构基础、FDS、fds） https://www.cc98.org/topic/6107642 
+[【学习天地】数据结构和算法 知识梳理及资源分享（补充标签：DSA、数据结构、数据结构与算法分析、数据结构基础、FDS、fds）](https://www.cc98.org/topic/6107642)
 
 
 
@@ -577,7 +545,7 @@ USTC教程：
 
 **教材：（进入帖子4楼的网盘链接里下载）**
 
-【日用交易】求购数逻和数据结构教材 https://www.cc98.org/topic/6074368 
+[【日用交易】求购数逻和数据结构教材](https://www.cc98.org/topic/6074368)
 
 
 
@@ -585,7 +553,7 @@ USTC教程：
 
 **Memset0佬的经验总结：**
 
-【学习天地】CS大一下课程笔记与学习经验分享（数据结构基础/FDS、离散数学及其应用/离散、数字逻辑设计/数逻）（关联：计算机科学与技术） https://www.cc98.org/topic/5933289 
+[【学习天地】CS大一下课程笔记与学习经验分享（数据结构基础/FDS、离散数学及其应用/离散、数字逻辑设计/数逻）（关联：计算机科学与技术）](https://www.cc98.org/topic/5933289 )
 
 **StarStone（愿岁并谢）佬的小资源：**
 
@@ -597,7 +565,7 @@ USTC教程：
 
 **瓜豪助教的资源：**
 
-【学习天地】2021-2022秋冬数字逻辑设计/数逻复习梳理 https://www.cc98.org/topic/5244465 
+[【学习天地】2021-2022秋冬数字逻辑设计/数逻复习梳理](https://www.cc98.org/topic/5244465 )
 
 [Jiepeng的笔记](https://note.jiepeng.tech/CS/DigitalDesign/)
 
@@ -605,11 +573,11 @@ USTC教程：
 
 **历年卷：**
 
-【学习天地】数字逻辑设计/数逻 2023-2024 秋冬 回忆卷 历年卷 https://www.cc98.org/topic/5919900 
+[【学习天地】数字逻辑设计/数逻 2023-2024 秋冬 回忆卷 历年卷](https://www.cc98.org/topic/5919900 )
 
-【学习天地】2022-2023 秋冬 数字逻辑设计 回忆卷（数逻） https://www.cc98.org/topic/5515784 
+[【学习天地】2022-2023 秋冬 数字逻辑设计 回忆卷（数逻）](https://www.cc98.org/topic/5515784 )
 
-【学习天地】混合 大一下 期末复习资料整理（关键词：形策  线代II  数逻  数分II  普物实验  普化实验  普物I） https://www.cc98.org/topic/5923936  有两份真题卷
+[【学习天地】混合 大一下 期末复习资料整理（关键词：形策  线代II  数逻  数分II  普物实验  普化实验  普物I） ](https://www.cc98.org/topic/5923936 ) 有两份真题卷
 
 Winmelon前辈的资料库里有近5年的真题回忆卷.
 
@@ -617,37 +585,55 @@ Winmelon前辈的资料库里有近5年的真题回忆卷.
 
 cm老师的小测合订本：
 
-【学习天地】【2024-2025春夏】数字逻辑设计小测题整理（tag: 数逻、数逻小测，数逻quiz） https://www.cc98.org/topic/6203694 
+[【学习天地】【2024-2025春夏】数字逻辑设计小测题整理（tag: 数逻、数逻小测，数逻quiz）](https://www.cc98.org/topic/6203694 )
 
 2024级资源合订本：
-【学习天地】CS/计院数字逻辑设计/数逻课程资源完整汇总，含历年卷、小测卷、学习资料、平时实验、Verilog学习、书上作业答案、大作业范本 https://www.cc98.org/topic/6231060 复制本链接，打开【CC98】微信小程序，直接查看本帖！
+[【学习天地】CS/计院数字逻辑设计/数逻课程资源完整汇总，含历年卷、小测卷、学习资料、平时实验、Verilog学习、书上作业答案、大作业范本](https://www.cc98.org/topic/6231060)
+
+<br/>
 
 
 ## 大二上
 
 ### 资源合订本
 
-2022级：
+* 2022级：
 
-【学习天地】混合/CS 大二课程总结（离散数学、马原、普物、普物实验、人工智能与生命科学、概统、图像信息处理、计组、数据库、毛概、ads、oop） https://www.cc98.org/topic/5932887 
+  [【学习天地】混合/CS 大二课程总结（离散数学、马原、普物、普物实验、人工智能与生命科学、概统、图像信息处理、计组、数据库、毛概、ads、oop） ](https://www.cc98.org/topic/5932887 )
 
+<br/>
 
+* 2023级：
 
-2023级：
+  [【学习天地】混合CS大二上课程经验及资源（TAG：混合 计科 大二上 ads 计组 Na 普物）]( https://www.cc98.org/topic/6095621 )
 
-【学习天地】混合CS大二上课程经验及资源（TAG：混合 计科 大二上 ads 计组 Na 普物） https://www.cc98.org/topic/6095621 
+  [【学习天地】混合 计科 大二上 期末复习资料整理（关键词：ADS 军理 普物II (虎哥)  计组 概统 希哲 马原H）]( https://www.cc98.org/topic/6082358 )
 
-【学习天地】混合 计科 大二上 期末复习资料整理（关键词：ADS 军理 普物II (虎哥)  计组 概统 希哲 马原H） https://www.cc98.org/topic/6082358 
+  [【计算机学院】混合CS大二回顾(ADS,计算机组成,概统,马原H,数据库系统(DB),计算机体系结构(CA),OOP,普物,毛概H)](https://www.cc98.org/topic/6228833)
 
+  [【计算机学院】不听课的一学期我是怎么度过的——CS大二下课程总结&经验分享 (TAG: 数据库系统/DB 计算机组成/计组/CO 高级数据结构与算法分析/ADS 面向对象程序设计/OOP 密码学 人工智能)]( https://www.cc98.org/topic/5940872 )
 
+  [【学习天地】CS大二上课程笔记与学习经验分享（计算机组成/计组、概率论与数理统计/概统、面向对象程序设计OOP、Java应用技术、数值分析、军事理论、新中国史等）]( https://www.cc98.org/topic/6098294 )
 
+  [【学习天地】CS 大二秋冬 课程回忆录（tag：概率论与数理统计（概统）、大学物理乙 II（大物乙）、大学物理实验、ADS、计算机组成（计组）、图像信息处理（dip）、汇编语言程序设计基础、心理学导论、社会心理学、军事理论（军理）、算法在游戏设计中的应用（国际化课程））]( https://www.cc98.org/topic/6098310 )
 
+  [【学习天地】软工大二上课程总结与经验分享（课程综合实践/计原/高级数据结构与算法分析ADS/面向对象OOP/大物实验）](https://www.cc98.org/topic/6097763)
+
+  <br/>
+
+* 教材：
+
+  [【学习天地】中英文电子版教材分享 // ADS OOP 计组 数据库](https://www.cc98.org/topic/5834561 )
+
+  [【计算机学院】混合CS大二回顾(ADS,计算机组成,概统,马原H,数据库系统(DB),计算机体系结构(CA),OOP,普物,毛概H)](https://www.cc98.org/topic/6228833) 看最顶上.
+
+  <br/>
 
 ### 高级数据结构与算法分析（ADS）
 
+[【学习天地】高级数据结构与算法分析（ADS）2024-2025秋冬 课程总结 历年题整理 笔记分享 PTA习题详解 project分享 Hadoop MapReduce](https://www.cc98.org/topic/6083671)
 
-
-
+<br/>
 
 ### 面向对象程序设计（OOP）
 
@@ -657,11 +643,31 @@ cm老师的小测合订本：
 
 ### 计算机组成（CO）
 
+* 课后习题答案：
 
+  [【学习天地】计组课后习题答案（RISC-V）](https://www.cc98.org/topic/6037844 )
 
+<br/>
 
+* 历年卷：
 
+  [【计算机学院】2023-2024春夏 计算机组成 期末回忆卷（计组）](https://www.cc98.org/topic/5922030 )
 
+  [【学习天地】2023-2024春夏lp班计组期中【tag: 计算机组成 计组 】 ](https://www.cc98.org/topic/5886264 )
+
+  [【信电ISEE】【2023-2024】个人向计组概念题整合](https://www.cc98.org/topic/5800575 )
+
+  [【信电ISEE】【2023-2024秋冬】信工大三上期末复习资料及历年卷汇编（计组，信控计，算法，通原）](https://www.cc98.org/topic/5794294 )
+
+  （据HobbitQia助教哥哥的改卷体验，信电的计组资源也可以参考一下）
+
+<br/>
+
+* A4：
+
+  [【学习天地】计算机组成 / 计组 A4 参考](https://www.cc98.org/topic/6092970)
+
+  
 
 ### 概率论与数理统计
 
@@ -679,15 +685,13 @@ cm老师的小测合订本：
 
   【学习天地】【2024-2025秋冬】普通物理学II（H）期中回忆卷 CC/LLK班 （tag：普物2，CC，LLK） https://www.cc98.org/topic/6090390 
 
-  【学习天地】2024-2025 cc/llk或lx/渡边 普通物理学/普物II回忆卷精装修订版 https://www.cc98.org/topic/6085951 
+  [【学习天地】2024-2025 cc/llk或lx/渡边 普通物理学/普物II回忆卷精装修订版](https://www.cc98.org/topic/6085951 )
 
-  【学习天地】23-24秋冬普物二（H）CC/LLK班期末回忆卷 https://www.cc98.org/topic/5799577 
+  [【学习天地】23-24秋冬普物二（H）CC/LLK班期末回忆卷](https://www.cc98.org/topic/5799577 )
 
-  
+  <br/>
 
-  
-
-  【竺可桢学院】普物II LLK 班  lec15-lec25 (光与量子力学) 的 ppt 转文档 https://www.cc98.org/topic/5530625 
+  [【竺可桢学院】普物II LLK 班  lec15-lec25 (光与量子力学) 的 ppt 转文档](https://www.cc98.org/topic/5530625 )
 
 
 
