@@ -241,15 +241,13 @@ Miracle前辈的资源整理：
 
 
 
-
+<br/>
 
 ### 数学分析甲II(H)
 
 * 辅学指南
 
-  竺院辅学官网： 
-
-  https://ckc-agc.bowling233.top/analysis/ 
+  [竺院辅学官网](https://ckc-agc.bowling233.top/analysis/ )
 
   图灵班指南：
 
@@ -265,13 +263,13 @@ Miracle前辈的资源整理：
 
   (test2)
 
-  2021和2022：http://www.cc98.org/topic/5327281 
+  2021和2022：[CC98地址](http://www.cc98.org/topic/5327281)
 
-  2024：http://www.cc98.org/topic/5895607
+  2024：[CC98地址](http://www.cc98.org/topic/5895607)
 
   2025：[【学习天地】(LaTeX重制)25春夏数学分析甲II(H)小测2（tag：数分H，数分h，数分2h，数分小测）](https://www.cc98.org/topic/6181578 )
 
-
+<br/>
 
 ### 线性代数II(H)
 
@@ -293,17 +291,13 @@ Miracle前辈的资源整理：
 
 [【学习天地】线性代数II(H)考前练习三份（大帝班+吴爷爷班）（Tag: 线代H，线代II，线代2）](https://www.cc98.org/topic/6198764 )
 
-
+<br/>
 
 ### 普通物理学I(H)
 
-**辅学网站：**
+**辅学网站：** [普物辅学 - 浙江大学竺可桢学院辅学计划站点](https://ckc-agc.bowling233.top/physics/)
 
-[普物辅学 - 浙江大学竺可桢学院辅学计划站点](https://ckc-agc.bowling233.top/physics/)
-
-**混合22/23级学长们编写的讲义：**
-
-[GitHub地址](https://crazyspotteddove.github.io/projects/zju-gpa/)
+**混合22/23级学长们编写的讲义：** [GitHub地址](https://crazyspotteddove.github.io/projects/zju-gpa/)
 
 **常用单词列表：**
 
@@ -319,39 +313,39 @@ Miracle前辈的资源整理：
 
 * 旧资源：
 
-  【学习天地】2019-2020 春夏 普通物理学I（H） 期中小测试 真题A https://www.cc98.org/topic/4928996 
+  [【学习天地】2019-2020 春夏 普通物理学I（H） 期中小测试 真题A](https://www.cc98.org/topic/4928996)
 
-  【学习天地】2019-2020 春夏 普通物理学I（H） 期中小测试 真题B https://www.cc98.org/topic/4927195 
+  [【学习天地】2019-2020 春夏 普通物理学I（H） 期中小测试 真题B](https://www.cc98.org/topic/4927195 )
 
-  【学习天地】20-21春夏普物期中考试题与答案 https://www.cc98.org/topic/5076582 
+  [【学习天地】20-21春夏普物期中考试题与答案](https://www.cc98.org/topic/5076582)
 
-  【学习天地】22春夏普物一（H）期中考题 https://www.cc98.org/topic/5304023 
+  [【学习天地】22春夏普物一（H）期中考题](https://www.cc98.org/topic/5304023 )
 
-  【学习天地】2022春夏学期 普通物理学I（H）期末试题 https://www.cc98.org/topic/5352704 
+  [【学习天地】2022春夏学期 普通物理学I（H）期末试题](https://www.cc98.org/topic/5352704 )
 
-  【竺可桢学院】23-24学年春夏学期普通物理学I（H）期中回忆卷 https://www.cc98.org/topic/5880596 
+  [【竺可桢学院】23-24学年春夏学期普通物理学I（H）期中回忆卷](https://www.cc98.org/topic/5880596 )
 
-  【竺可桢学院】23-24学年春夏学期普通物理学I（H）期末回忆卷 https://www.cc98.org/topic/5921751 
+  [【竺可桢学院】23-24学年春夏学期普通物理学I（H）期末回忆卷](https://www.cc98.org/topic/5921751)
 
   
 
 * 外教班：
 
-  【竺可桢学院】2023-2024普通物理学I期中英文卷（附解答）【普物期中 普物 外教班 普物秋冬】 https://www.cc98.org/topic/5932005 
+  [【竺可桢学院】2023-2024普通物理学I期中英文卷（附解答）【普物期中 普物 外教班 普物秋冬】](https://www.cc98.org/topic/5932005 )
 
-  【竺可桢学院】2024春夏普通物理I（H）回忆卷【普物 期末 外教班 历年卷】 https://www.cc98.org/topic/5921654  
+  [【竺可桢学院】2024春夏普通物理I（H）回忆卷【普物 期末 外教班 历年卷】](https://www.cc98.org/topic/5921654  )
 
-  【学习天地】24-25学年春夏学期期末_普通物理学I（H）外教班回忆卷(Tag: 普物, 普物I, 普物I（H）, 期末,) https://www.cc98.org/topic/6215633 
+  [【学习天地】24-25学年春夏学期期末_普通物理学I（H）外教班回忆卷(Tag: 普物, 普物I, 普物I（H）, 期末,)](https://www.cc98.org/topic/6215633 )
 
-  【竺可桢学院】24-25春夏 普物I 期末 外教班 回忆卷 https://www.cc98.org/topic/6215669 
+  [【竺可桢学院】24-25春夏 普物I 期末 外教班 回忆卷](https://www.cc98.org/topic/6215669 )
 
 * mzw班：
 
-  【学习天地】马志为老师普通物理学（H）2023年期中考大题回忆 https://www.cc98.org/topic/5612718 
+  [【学习天地】马志为老师普通物理学（H）2023年期中考大题回忆](https://www.cc98.org/topic/5612718 )
 
-  【学习天地】24-25春夏普通物理学Ⅰ（H）期末　普物/马志为/mzw  https://www.cc98.org/topic/6215636 
+  [【学习天地】24-25春夏普通物理学Ⅰ（H）期末　普物/马志为/mzw](https://www.cc98.org/topic/6215636 )
 
-  【竺可桢学院】24-25春夏 普通物理学Ⅰ（H） ZHIWEI MA班 回忆卷 （含23-24春夏期末卷完整版流出）（tags：普物 mzw 马志为） https://www.cc98.org/topic/6215617 
+  [【竺可桢学院】24-25春夏 普通物理学Ⅰ（H） ZHIWEI MA班 回忆卷 （含23-24春夏期末卷完整版流出）（tags：普物 mzw 马志为）](https://www.cc98.org/topic/6215617 )
 
 
 
@@ -365,133 +359,112 @@ Miracle前辈的资源整理：
 
 ### 普通物理学实验I
 
-期末考试占比30%，看起来不多但我被狠狠创死了啊啊啊啊啊.
+期末考试占比30%，看起来不大但我被狠狠创死了呜呜呜.
 
 需要注意的是，普物实验和大物实验是同一套体系（我也不知道为什么会分开来选课，老师是共享的，实验内容也是完全一样的）
 
 
 
-实验报告：
+* 实验报告：
 
-[【学习天地】普通物理学实验I（普物实验I）部分老师和实验分享介绍（含实验报告）](https://www.cc98.org/topic/5537180 )
+  [【学习天地】普通物理学实验I（普物实验I）部分老师和实验分享介绍（含实验报告）](https://www.cc98.org/topic/5537180 )
 
-[【学习天地】大学物理实验报告（大物实验报告）](https://www.cc98.org/topic/6076104 )
+  [【学习天地】大学物理实验报告（大物实验报告）](https://www.cc98.org/topic/6076104 )
 
-[【学习天地】2024秋冬 大学物理实验报告（tag：大学物理实验，大物实验，实验报告）](https://www.cc98.org/topic/6192967 )
-
-
-
-历年卷：
-
-* 往年
-
-  【日用交易】求大物实验/普物实验1历年卷 https://www.cc98.org/topic/5621286   看2L
-
-  【学习天地】【大物实验/大学物理实验】大物实验资源汇总24-25秋冬版 https://www.cc98.org/topic/6107512 
-
-  【学习天地】【实验报告】大学物理实验/大物实验/普物实验 参考实验报告 23-24秋冬真题卷/历年卷 https://www.cc98.org/topic/5845216 
-
-  以下均来自：【学习天地】【大物实验/大学物理实验】大物实验资源汇总24-25秋冬版 https://www.cc98.org/topic/6107512 
-
-  24-25秋冬 大学物理实验期末回忆卷（大物实验） https://www.cc98.org/topic/6087536  
-
-  2024-2025秋冬 大学物理实验期末回忆卷（大物实验）https://www.cc98.org/topic/6087554  
-
-  2023-2024秋冬学期回忆卷+资源汇总整理分享 https://www.cc98.org/topic/5802063 
-
-  这个帖子里面有对23-24秋冬这份卷子答案的探讨https://www.cc98.org/topic/6085479  
-
-  大物实验蓝田文印店历年卷资料 https://www.cc98.org/topic/5800519 
-
-  大学物理实验/大物实验 资源索引 https://www.cc98.org/topic/5862194 （后面有一些历年卷）
+  [【学习天地】2024秋冬 大学物理实验报告（tag：大学物理实验，大物实验，实验报告）](https://www.cc98.org/topic/6192967 )
 
   
 
-* 2024级
+* 历年卷：
+  * 往年
 
-  【学习天地】普通物理学实验 /普物/ 期末/回忆卷 （已更新 https://www.cc98.org/topic/6222009 
+    [【日用交易】求大物实验/普物实验1历年卷](https://www.cc98.org/topic/5621286 )  看2L
 
+    [【学习天地】【大物实验/大学物理实验】大物实验资源汇总24-25秋冬版](https://www.cc98.org/topic/6107512 )
 
+    [【学习天地】【实验报告】大学物理实验/大物实验/普物实验 参考实验报告 23-24秋冬真题卷/历年卷](https://www.cc98.org/topic/5845216 )
+
+    以下均来自：[【学习天地】【大物实验/大学物理实验】大物实验资源汇总24-25秋冬版](https://www.cc98.org/topic/6107512 )
+
+    > [24-25秋冬 大学物理实验期末回忆卷（大物实验）](https://www.cc98.org/topic/6087536 )
+    >
+    > [2024-2025秋冬 大学物理实验期末回忆卷（大物实验）](https://www.cc98.org/topic/6087554  )
+    >
+    > [2023-2024秋冬学期回忆卷+资源汇总整理分享](https://www.cc98.org/topic/5802063 )
+    >
+    > [这个帖子里面有对23-24秋冬这份卷子答案的探讨](https://www.cc98.org/topic/6085479  )
+    >
+    > [大物实验蓝田文印店历年卷资料](https://www.cc98.org/topic/5800519 )
+    >
+    > [大学物理实验/大物实验 资源索引](https://www.cc98.org/topic/5862194) （后面有一些历年卷）
+
+  
+
+  * 2024级
+
+    [【学习天地】普通物理学实验 /普物/ 期末/回忆卷 （已更新](https://www.cc98.org/topic/6222009 )
+
+<br/>
 
 ### 普通化学实验（乙）
 
 **资源合订本：**
 
-【学习天地】[2024-2025春夏]普通化学实验（乙）资源总结帖（tag：普化实验、普化实验乙） https://www.cc98.org/topic/6200715 
-
-
+[【学习天地】[2024-2025春夏]普通化学实验（乙）资源总结帖（tag：普化实验、普化实验乙）](https://www.cc98.org/topic/6200715 )
 
 **安全测试题库刷题网站：**
 
-https://github.com/11111tao/ChemistryLabSafetyQuiz
-
-
+[GitHub地址](https://github.com/11111tao/ChemistryLabSafetyQuiz)
 
 **实验报告：**
 
-【学习天地】【普通化学实验（乙）】实验报告（Tag：普化实验 普化乙） 
-
-https://www.cc98.org/topic/6077564 
-
-
+[【学习天地】【普通化学实验（乙）】实验报告（Tag：普化实验 普化乙）](https://www.cc98.org/topic/6077564)
 
 **回忆卷：** 
 
 * 24-25春夏：
 
-  【学习天地】25春夏普化实验考试回忆卷 https://www.cc98.org/topic/6201895 
+  [【学习天地】25春夏普化实验考试回忆卷](https://www.cc98.org/topic/6201895)
 
-  【学习天地】普通化学实验（乙）2025春夏回忆 https://www.cc98.org/topic/6201301
-
-  
+  [【学习天地】普通化学实验（乙）2025春夏回忆](https://www.cc98.org/topic/6201301)
 
 * 24-25秋冬：（分AB卷）
 
-  【学习天地】24-25秋冬学期普通化学实验（乙）理论考回忆卷（B）（tag：普化实验，普化实验乙，普化乙实验） https://www.cc98.org/topic/6077439 
+  [【学习天地】24-25秋冬学期普通化学实验（乙）理论考回忆卷（B）（tag：普化实验，普化实验乙，普化乙实验）](https://www.cc98.org/topic/6077439 )
 
-  【学习天地】2024-2025秋冬学期普通化学实验（乙）理论考回忆卷（tag：普化实验，普化实验乙，普化乙实验） https://www.cc98.org/topic/6077342 
+  [【学习天地】2024-2025秋冬学期普通化学实验（乙）理论考回忆卷（tag：普化实验，普化实验乙，普化乙实验）](https://www.cc98.org/topic/6077342 )
 
-  【学习天地】24秋冬普化实验乙回忆 https://www.cc98.org/topic/6077247 
-
-  
+  [【学习天地】24秋冬普化实验乙回忆](https://www.cc98.org/topic/6077247 )
 
 * 23-24春夏：
 
-  【学习天地】2023-2024春夏普化实验（乙）回忆卷（tag：普化实验乙） https://www.cc98.org/topic/5914116 
-
-  
+  [【学习天地】2023-2024春夏普化实验（乙）回忆卷（tag：普化实验乙）](https://www.cc98.org/topic/5914116)
 
 * 23-24秋冬：
 
-  【学习天地】23-24普化实验乙回忆卷 https://www.cc98.org/topic/5793955 
+  [【学习天地】23-24普化实验乙回忆卷](https://www.cc98.org/topic/5793955)
 
-  【学习天地】23秋冬普化实验（乙）回忆 https://www.cc98.org/topic/5793964 
-
-  
+  [【学习天地】23秋冬普化实验（乙）回忆](https://www.cc98.org/topic/5793964) 
 
 * 21-22春夏：
 
-  【学习天地】普通化学实验（乙）回忆卷与部分复习资料 普化实验 https://www.cc98.org/topic/5345379 
-
-  
+  [【学习天地】普通化学实验（乙）回忆卷与部分复习资料 普化实验](https://www.cc98.org/topic/5345379 )
 
 * 20-21春夏：
 
-  【学习天地】普通化学实验（乙）理论考试回忆卷 普化实验乙 https://www.cc98.org/topic/5107732 
+  [【学习天地】普通化学实验（乙）理论考试回忆卷 普化实验乙](https://www.cc98.org/topic/5107732 )
 
-  【学习天地】24-25大一秋冬课程分享+资料整理（tag.vjf 大英 思政 军理 分析化学 普化乙 普化实验 新中国史 行为决策与主推 大计基 大学写作） https://www.cc98.org/topic/6096579 
-
-
+  [【学习天地】24-25大一秋冬课程分享+资料整理（tag.vjf 大英 思政 军理 分析化学 普化乙 普化实验 新中国史 行为决策与主推 大计基 大学写作）](https://www.cc98.org/topic/6096579 )
 
 复习笔记：
 
-【学习天地】【实验报告：普化实验（乙）】23-24冬普通化学实验（乙）实验报告及复习笔记 https://www.cc98.org/topic/5806855 
+[【学习天地】【实验报告：普化实验（乙）】23-24冬普通化学实验（乙）实验报告及复习笔记](https://www.cc98.org/topic/5806855)
 
-【学习天地】普通化学实验（乙）/普化实验（乙）复习笔记 https://www.cc98.org/topic/5910996 
+[【学习天地】普通化学实验（乙）/普化实验（乙）复习笔记](https://www.cc98.org/topic/5910996)
 
-【学习天地】普化实验（乙）实验报告整理以及复习笔记 https://www.cc98.org/topic/5107704 
+[【学习天地】普化实验（乙）实验报告整理以及复习笔记](https://www.cc98.org/topic/5107704)
 
-【学习天地】2024-2025秋冬普化实验甲理论考笔记及历年卷索引（tag:普通化学实验甲） https://www.cc98.org/topic/6090563 
+[【学习天地】2024-2025秋冬普化实验甲理论考笔记及历年卷索引（tag:普通化学实验甲）](https://www.cc98.org/topic/6090563) 
 
 
 
@@ -499,21 +472,21 @@ https://www.cc98.org/topic/6077564
 
 (来自Slowist姐的CC98资源一路楼)
 
-NoughtQ前辈的笔记：  https://note.noughtq.top/algorithms/fds/ 
+NoughtQ前辈的[笔记](https://note.noughtq.top/algorithms/fds/)
 
-TonyCrane前辈的笔记： https://note.tonycrane.cc/cs/algorithm/ds/ 
+TonyCrane前辈的[笔记](https://note.tonycrane.cc/cs/algorithm/ds/)
 
-咸鱼暄前辈提供的入门路线： https://xuan-insr.github.io/math_ds_algo/getting_started/ 
+咸鱼暄前辈提供的[入门路线](https://xuan-insr.github.io/math_ds_algo/getting_started/ )
 
-**这里有cx班24年的真题**： https://wintermelonc.github.io/WintermelonC_Docs/zju/basic_courses/data_structure/ 
+**[这里](https://wintermelonc.github.io/WintermelonC_Docs/zju/basic_courses/data_structure/ )有cx班24年的真题**： 
 
-小角龙前辈的笔记里面也有一部分题目 理论题整理： https://lhxcs.github.io/note/cs/ds/pta/
+小角龙前辈的笔记里面也有一部分题目 [理论题整理](https://lhxcs.github.io/note/cs/ds/pta/)
 
 
 
 Winmelon的经验总结：
 
-【学习天地】数据结构基础（FDS）2023-2024 春夏课程总结历年题整理 https://www.cc98.org/topic/6083675 
+[【学习天地】数据结构基础（FDS）2023-2024 春夏课程总结历年题整理](https://www.cc98.org/topic/6083675)
 
 Memset0佬的经验总结：
 
@@ -541,13 +514,9 @@ USTC教程：
 
 [数字电路教程](https://vlab.ustc.edu.cn/guide/index.html)
 
-
-
 **教材：（进入帖子4楼的网盘链接里下载）**
 
 [【日用交易】求购数逻和数据结构教材](https://www.cc98.org/topic/6074368)
-
-
 
 [数字逻辑设计 - WintermelonC Docs](https://wintermelonc.github.io/WintermelonC_Docs/zju/basic_courses/digital_logic_design/)
 
@@ -637,9 +606,19 @@ cm老师的小测合订本：
 
 ### 面向对象程序设计（OOP）
 
+* 合订本：
 
+  [【学习天地】2023-2024春夏 面向对象程序设计 期中（wk班）&期末回忆卷&历年卷考据（面向对象的程序设计/OOP）](https://www.cc98.org/topic/5928482)
 
+* 笔记&PPT：
 
+  [【学习天地】一点OOP复习笔记（30%）](https://www.cc98.org/topic/6222435)
+
+  [【学习天地】分享一下OOP和FDS整理的全部复习笔记](https://www.cc98.org/topic/6222302)
+
+  [【学习天地】24-25秋冬oop/面向对象程序设计_李际军/ljj班PPT](https://www.cc98.org/topic/6103022)
+
+<br/>
 
 ### 计算机组成（CO）
 
@@ -671,19 +650,37 @@ cm老师的小测合订本：
 
 ### 概率论与数理统计
 
+* 历年卷：
+
+  2025春夏以前：
+
+  [【学习天地】概统版搜历年卷合集（24-25春夏考试前）（tag：概率论与数理统计、概统、历年卷、期末）](https://www.cc98.org/topic/6185391)
+
+  2025春夏：
+
+  [【学习天地】2024-2025学年春夏学期《概率论与数理统计》期末考试回忆卷（tag：概统，概率论与数理统计）](https://www.cc98.org/topic/6221819 )
+
+  [【学习天地】2024-2025学年春夏学期《概率论与数理统计》期末考试回忆卷答案（tag：概统，概率论与数理统计](https://www.cc98.org/topic/6227269)
 
 
 
+* 复习笔记
 
+  [【学习天地】概统复习手写笔记](https://www.cc98.org/topic/6216589)
 
+  [【学习天地】概率论与数理统计/（工科）概统  （2.5学分）  课本整理及经验总结（标签：概统）](https://www.cc98.org/topic/5968842)
+
+  [第1章 概率论的基本概念 - LH的资源小站](https://lh-0124.github.io/LHstudy/note/notegt1/)
+
+<br/>
 
 ### 普通物理学II(H)
 
 * CC/LLK班：
 
-  【学习天地】【2024-2025秋冬】普通物理学II（H）期末答案参考  （tag: 答案 CC/LLK班 普物2) https://www.cc98.org/topic/6096055 
+  [【学习天地】【2024-2025秋冬】普通物理学II（H）期末答案参考  （tag: 答案 CC/LLK班 普物2)](https://www.cc98.org/topic/6096055)
 
-  【学习天地】【2024-2025秋冬】普通物理学II（H）期中回忆卷 CC/LLK班 （tag：普物2，CC，LLK） https://www.cc98.org/topic/6090390 
+  [【学习天地】【2024-2025秋冬】普通物理学II（H）期中回忆卷 CC/LLK班 （tag：普物2，CC，LLK）](https://www.cc98.org/topic/6090390)
 
   [【学习天地】2024-2025 cc/llk或lx/渡边 普通物理学/普物II回忆卷精装修订版](https://www.cc98.org/topic/6085951 )
 
@@ -693,55 +690,67 @@ cm老师的小测合订本：
 
   [【竺可桢学院】普物II LLK 班  lec15-lec25 (光与量子力学) 的 ppt 转文档](https://www.cc98.org/topic/5530625 )
 
-
-
-### 普通物理学实验II
+<br/>
 
 * 报告模板：
 
-  【学习天地】普物实验二电子版混合实验报告LaTeX模板 https://www.cc98.org/topic/5983253 
+  [【学习天地】普物实验二电子版混合实验报告LaTeX模板](https://www.cc98.org/topic/5983253) 
 
-
-
-
-
-
+<br/>
 
 ## 大二下
 
-【学习天地】大二下 CS 专业期末复习笔记（tag：计算机体系结构(CA)、数据库系统(DB)、面向对象程序设计(OOP)、数值分析(NA)） https://www.cc98.org/topic/6201990 
+[【学习天地】大二下 CS 专业期末复习笔记（tag：计算机体系结构(CA)、数据库系统(DB)、面向对象程序设计(OOP)、数值分析(NA)）](https://www.cc98.org/topic/6201990)
 
-【学习天地】混合CS 大二下课程经验及资源(tags:数据库系统 DB、计算机体系结构 CA、面向对象程序设计 oop、离散数学、毛概H、工图H) https://www.cc98.org/topic/6228648 
+[【学习天地】混合CS 大二下课程经验及资源(tags:数据库系统 DB、计算机体系结构 CA、面向对象程序设计 oop、离散数学、毛概H、工图H)](https://www.cc98.org/topic/6228648)
 
-
+<br/>
 
 ### 数据库系统（DB）
 
-【学习天地】求去年（24）数据库系统的期末题 https://www.cc98.org/topic/6205468 
+[【学习天地】求去年（24）数据库系统的期末题](https://www.cc98.org/topic/6205468 )
 
-
+<br/>
 
 ### 计算机体系结构（CA）
 
+课程整体概述：
 
+[计算机体系结构 - WintermelonC Docs](https://wintermelonc.github.io/WintermelonC_Docs/zju/compulsory_courses/computer_architecture/)
+
+教材答案：
+
+[【学习天地】8u们有计算机体系结构教材（第六版）的答案吗](https://www.cc98.org/topic/6175225)    看3L
+
+回忆卷：
+
+[【学习天地】2024-2025春夏 计算机体系结构（CA） 期末回忆卷](https://www.cc98.org/topic/6219439)
+
+课程PPT资源：
+
+[ZJU-CS/计算机体系结构 at main · 2811668688/ZJU-CS](https://github.com/2811668688/ZJU-CS/tree/main/计算机体系结构)
+
+[大三上cs课程回忆&学习总结（计算理论，计网，os，计算机体系结构，应用运筹学基础，Java，金融科技导论，商行，公司金融，习概） - CC98论坛](https://www.cc98.org/topic/5239986#1)
+
+<br/>
 
 ### 离散数学
 
-【学习天地】求竺院离散数学历年卷 https://www.cc98.org/topic/6216217  看5L
+[【学习天地】求竺院离散数学历年](https://www.cc98.org/topic/6216217 ) 看5L
 
-【学习天地】离散数学及其应用个人总结&笔记（tag：离散/离散数学及其应用/笔记/复习/小测/历年卷） https://www.cc98.org/topic/6225692 
+[【学习天地】离散数学及其应用个人总结&笔记（tag：离散/离散数学及其应用/笔记/复习/小测/历年卷）](https://www.cc98.org/topic/6225692)
 
-【学习天地】离散数学及其应用学习资料汇总整理（tag：计院离散、离散电子教材、离散习题答案、llf课件、离散历年卷） https://www.cc98.org/topic/5827018 
+[【学习天地】离散数学及其应用学习资料汇总整理（tag：计院离散、离散电子教材、离散习题答案、llf课件、离散历年卷）](https://www.cc98.org/topic/5827018 )
 
-【学习天地】【离散数学理论基础 / 离散】24-25春夏 离散数学理论基础 四次小测合集（LaTeX重制版） https://www.cc98.org/topic/6231638 
+[【学习天地】【离散数学理论基础 / 离散】24-25春夏 离散数学理论基础 四次小测合集（LaTeX重制版）](https://www.cc98.org/topic/6231638 )
 
-【学习天地】2024-2025春夏学期离散数学及其应用赵永望zyw老师两次小测及期中 https://www.cc98.org/topic/6204405 
+[【学习天地】2024-2025春夏学期离散数学及其应用赵永望zyw老师两次小测及期](https://www.cc98.org/topic/6204405 )
 
-【学习天地】2025春夏 离散数学及其应用 张三元老师 期中 zsy 离散期中 https://www.cc98.org/topic/6179132 
+[【学习天地】2025春夏 离散数学及其应用 张三元老师 期中 zsy 离散期中](https://www.cc98.org/topic/6179132 )
 
-
+<center><font color="#FF0000"><b>E.N.D.</b></font></center>
 
 ------
 
-> 最后更新时间：2025.6.5
+> 最后更新时间：2025.8.18
 

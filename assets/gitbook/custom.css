@@ -183,6 +183,9 @@
 .book.font-family-1 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.book.font-family-2 {
+    font-family: "Times New Roman", Times, serif;
+}
 
 /* Render wide tables */
 
@@ -279,6 +282,7 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     overflow-y: auto;
     z-index: 2;
     font-size: 14px;
+    font-family: inherit;
 }
 
 .summary-header {
@@ -318,6 +322,7 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     background: #f8f8f8;
     transition: background-color 0.2s ease;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .category-header:hover {
@@ -346,7 +351,21 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     display: none;
     background: #fff;
 }
+/* 加载状态样式 */
+.category-posts a.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
 
+.category-posts a.loading::after {
+    content: ' ⏳';
+    font-size: 0.8em;
+}
+
+/* 平滑过渡效果 */
+.body-inner {
+    transition: opacity 0.2s ease-in-out;
+}
 .category-group.expanded .category-posts {
     display: block;
 }
@@ -367,6 +386,7 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     line-height: 1.4;
     transition: all 0.2s ease;
     border-left: 3px solid transparent;
+    font-family: inherit;
 }
 
 .category-posts a:hover {

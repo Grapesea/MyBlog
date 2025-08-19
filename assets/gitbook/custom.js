@@ -27,3 +27,32 @@ if (document.readyState === "loading") {
     bind_footnote_links();
 }
 
+// 添加一个函数来保存和恢复滚动位置
+function initializeSidebarScrollPosition() {
+    const sidebar = document.querySelector('.book-summary');
+    if (!sidebar) return;
+
+    // 保存滚动位置
+    document.querySelectorAll('.category-posts a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            // 保存当前滚动位置到 sessionStorage
+            sessionStorage.setItem('sidebarScrollPosition', sidebar.scrollTop);
+        });
+    });
+
+    // 页面加载时恢复滚动位置
+    document.addEventListener('DOMContentLoaded', function() {
+        const scrollPosition = sessionStorage.getItem('sidebarScrollPosition');
+        if (scrollPosition) {
+            sidebar.scrollTop = parseInt(scrollPosition);
+        }
+    });
+}
+
+// 确保函数在页面加载时执行
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeSidebarScrollPosition);
+} else {
+    initializeSidebarScrollPosition();
+}
+

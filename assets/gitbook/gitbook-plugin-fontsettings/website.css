@@ -79,6 +79,9 @@
 .book.font-family-1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.book.font-family-2 {
+    font-family: "Times New Roman", Times, serif;
+}
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
   color: #704214;
 }

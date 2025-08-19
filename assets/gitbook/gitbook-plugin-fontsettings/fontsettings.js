@@ -37,6 +37,11 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             config: 'sans',
             text: 'Sans',
             id: 1
+        },
+        {
+            config: 'times',
+            text: 'Times',
+            id: 2
         }
     ];
 
