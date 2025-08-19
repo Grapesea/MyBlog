@@ -420,8 +420,8 @@ pre:has(code.language-mermaid[data-processed="true"]) {
 .toc-container {
     position: fixed;
     right: 10px;
-    top: 100px;
-    width: 240px;
+    top: 60px;
+    width: 100px;
     max-height: calc(100vh - 120px);
     background: #ffffff;
     border: 1px solid #e7e7e7;
@@ -476,7 +476,7 @@ pre:has(code.language-mermaid[data-processed="true"]) {
 }
 
 .toc-content.collapsed {
-    display: none;
+    display: none !important;
 }
 
 .toc-list {
