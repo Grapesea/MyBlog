@@ -701,4 +701,58 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     color: #42b983;
 }
 
-/* ========== HEADING SCROLL MARGIN
+/* ========== HEADING SCROLL MARGIN ========== */
+h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 80px;
+    /* For Firefox */
+}
+
+h1 {
+    scroll-margin-top: 100px;
+}
+
+@supports (-webkit-touch-callout: none) {
+    h1, h2, h3, h4, h5, h6 {
+        scroll-margin-top: 60px;
+    }
+    
+    h1 {
+        scroll-margin-top: 80px;
+    }
+}
+
+/* Warning, Danger, Tips blocks */
+.markdown-section blockquote.block-warning,
+.markdown-section blockquote.block-danger,
+.markdown-section blockquote.block-tip {
+    font-family: inherit;
+}
+
+/* Block titles */
+.markdown-section blockquote.block-warning h1,
+.markdown-section blockquote.block-warning h2,
+.markdown-section blockquote.block-warning h3,
+.markdown-section blockquote.block-warning h4,
+.markdown-section blockquote.block-warning h5,
+.markdown-section blockquote.block-warning h6,
+.markdown-section blockquote.block-danger h1,
+.markdown-section blockquote.block-danger h2,
+.markdown-section blockquote.block-danger h3,
+.markdown-section blockquote.block-danger h4,
+.markdown-section blockquote.block-danger h5,
+.markdown-section blockquote.block-danger h6,
+.markdown-section blockquote.block-tip h1,
+.markdown-section blockquote.block-tip h2,
+.markdown-section blockquote.block-tip h3,
+.markdown-section blockquote.block-tip h4,
+.markdown-section blockquote.block-tip h5,
+.markdown-section blockquote.block-tip h6 {
+    font-family: inherit;
+}
+
+/* Block content */
+.markdown-section blockquote.block-warning p,
+.markdown-section blockquote.block-danger p,
+.markdown-section blockquote.block-tip p {
+    font-family: inherit;
+}
