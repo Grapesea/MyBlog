@@ -73,11 +73,11 @@ mathjax: true
 
 #### 前辈故事
 
-​			【一路走来】图灵 2203 班一路贴 https://www.cc98.org/topic/6019264 
+​			[【一路走来】图灵 2203 班一路贴](https://www.cc98.org/topic/6019264)
 
-​			【学习天地】我的本科故事——混合、光电、电科与物理 https://www.cc98.org/topic/6004391 
+​			[【学习天地】我的本科故事——混合、光电、电科与物理](https://www.cc98.org/topic/6004391 )
 
-​			【竺可桢学院】我在浙大 & （我在混合/我在cs/我的前三年） https://www.cc98.org/topic/5698515 
+​			[【竺可桢学院】我在浙大 & （我在混合/我在cs/我的前三年）](https://www.cc98.org/topic/5698515 )
 
 ​			在cc98上以“混合”为关键词搜索，可以看到非常多的相关帖子。
 
@@ -131,7 +131,7 @@ mathjax: true
 
 ### 汉语言微辅修资源整理
 
-SocraLin前辈的网站：[林榆雁的博客 | Socra Lin's Blog](https://socralin.github.io/)
+SocraLin前辈的网站：[林榆雁的博客 Socra Lin's Blog](https://socralin.github.io/)
 
 [【学习天地】汉语言文学专业必修课经验分享（plz语言学基础、hq/zsx文学理论、zgh/zyj现当代文学史12、zy/xxt古代文学史12、cch现汉、btg古汉1）](https://www.cc98.org/topic/6229591)
 
@@ -141,19 +141,13 @@ SocraLin前辈的网站：[林榆雁的博客 | Socra Lin's Blog](https://socral
 
 ### 数学分析甲I(H)
 
-竺院辅学官网： 
+[竺院辅学官网](https://ckc-agc.bowling233.top/analysis/ )
 
-https://ckc-agc.bowling233.top/analysis/ 
-
-袁助教的微积分辅学网站：
-
-https://yuanhongyi.github.io/zjucalc24/
+源虹翼助教的[微积分辅学网站](https://yuanhongyi.github.io/zjucalc24/)
 
 自己整理的数分考研题：
 
-https://www.overleaf.com/read/pknfvnvcsqbr#c520ef 
-
-https://www.overleaf.com/read/mxcnzqypwryn#970830 
+[第一份](https://www.overleaf.com/read/pknfvnvcsqbr#c520ef )           [第二份](https://www.overleaf.com/read/mxcnzqypwryn#970830 )
 
 数院的期末题：
 
@@ -165,9 +159,7 @@ https://www.overleaf.com/read/mxcnzqypwryn#970830
 
 LALU的GitHub仓库：[yhwu-is/Linear-Algebra-Left-Undone: 线性代数：未竟之美](https://github.com/yhwu-is/Linear-Algebra-Left-Undone)
 
-竺院辅学官网： 
-
-https://ckc-agc.bowling233.top/algebra/ 
+[竺院辅学官网](https://ckc-agc.bowling233.top/algebra/ )
 
 自己整理的笔记（未完） 
 
@@ -279,13 +271,9 @@ Miracle前辈的资源整理：
 
 [celiopassos/linear-algebra-done-right-solutions: Solutions to Linear Algebra Done Right, Third Edition](https://github.com/celiopassos/linear-algebra-done-right-solutions)
 
-
-
 2024级吴志祥班两份期中：
 
 [【学习天地】2025春夏线性代数II（H）期中试卷2份及部分题目溯源（tag: wzx 吴志祥 线代H 线代II 线代2 线代 线代期中）](https://www.cc98.org/topic/6169816 )
-
-
 
 2024级期末考前练习：
 
@@ -747,6 +735,10 @@ cm老师的小测合订本：
 [【学习天地】2024-2025春夏学期离散数学及其应用赵永望zyw老师两次小测及期](https://www.cc98.org/topic/6204405 )
 
 [【学习天地】2025春夏 离散数学及其应用 张三元老师 期中 zsy 离散期中](https://www.cc98.org/topic/6179132 )
+
+<br/>
+
+<br/>
 
 <center><font color="#FF0000"><b>E.N.D.</b></font></center>
 

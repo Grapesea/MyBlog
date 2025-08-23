@@ -2,7 +2,7 @@
 title: 如何提高自制力？
 date: 1971-01-01
 layout: post
-categories: [雪泥鸿爪]
+categories: [tools]
 mermaid: true 
 mathjax: true
 ---

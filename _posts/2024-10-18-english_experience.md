@@ -2,7 +2,7 @@
 title: 关于高考英语，我想分享的一点东西
 date: 2024-10-18
 layout: post
-categories: [雪泥鸿爪]
+categories: [senior]
 mermaid: true 
 mathjax: true
 ---
