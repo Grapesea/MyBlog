@@ -114,8 +114,8 @@ categories:
       - "2025-06-28-ads"
   - name: "senior"
     posts:
-      - "2024-10-18-english_experience"
-      - "2024-10-18-chinese_experience"
+      - "2099-10-18-english_experience"
+      - "2099-10-18-chinese_experience"
   - name: "Math_Phy"
     posts:
       - "2025-06-28-Pro-and-Sta"
@@ -130,5 +130,4 @@ categories:
       - "2025-01-01-course_info_blank"
   - name: "article"
     posts:
-      - "2024-12-31-new_year"
-      - "2024-12-14-stars"
+      - "2024-12-31-new_year" 

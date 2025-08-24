@@ -1,6 +1,6 @@
 ---
 title: 关于高考语文，我想分享的一点东西
-date: 2024-10-18
+date: 2099-10-18
 layout: post
 categories: [senior]
 mermaid: true 
