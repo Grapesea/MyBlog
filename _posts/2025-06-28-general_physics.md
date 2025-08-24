@@ -2,7 +2,7 @@
 title: 普通物理学II笔记[2025-2026秋冬]
 date: 2025-06-28
 layout: post
-categories: [数理基础]
+categories: [Math_Phy]
 mermaid: true 
 mathjax: true
 ---

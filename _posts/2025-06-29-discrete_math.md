@@ -2,7 +2,7 @@
 title: 离散数学[2025-2026春夏]
 date: 2025-06-29
 layout: post
-categories: [数理基础]
+categories: [Math_Phy]
 mermaid: true 
 mathjax: true
 ---

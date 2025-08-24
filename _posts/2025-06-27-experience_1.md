@@ -2,7 +2,7 @@
 title: 大一经验教训总结
 date: 2025-06-27
 layout: post
-categories: [经验]
+categories: [exp]
 mermaid: true 
 mathjax: true
 ---
