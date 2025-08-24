@@ -7,6 +7,9 @@
 .color-theme-1 .highlight {
   background-color: #fbf6e3 !important;
 }
+.color-theme-2 .highlight {
+  background-color: #2e3143 !important;
+}
 .highlight .w {
   color: inherit;
   background-color: inherit;
@@ -29,10 +32,10 @@
   color: #038;
 }
 .highlight .kt {
-  color: #339;
+  color: #2cb9ff;
 }
 .highlight .o {
-  color: #333;
+  color: #9c9c9c;
 }
 .highlight .ow {
   color: #000;
@@ -123,11 +126,11 @@
   color: #D20;
 }
 .highlight .m, .highlight .mb, .highlight .mx {
-  color: #60E;
+  color: rgb(200, 158, 255);
   font-weight: bold;
 }
 .highlight .mi, .highlight .il {
-  color: #00D;
+  color: rgb(133, 133, 255);
   font-weight: bold;
 }
 .highlight .mf {
