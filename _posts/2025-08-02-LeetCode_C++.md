@@ -106,11 +106,3 @@ public:
 
 
 
-<br/>
-
-<br/>
-
-<center><font color="#FF0000"><b>E.N.D.</b></font></center>
-
-<br/>
-
