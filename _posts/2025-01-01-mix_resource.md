@@ -131,6 +131,8 @@ mathjax: true
 
 ### 汉语言微辅修资源整理
 
+（但目前来看大一大二塞不进辅修课，大三大四又不一定有时间，唉）
+
 SocraLin前辈的网站：[林榆雁的博客 Socra Lin's Blog](https://socralin.github.io/)
 
 [【学习天地】汉语言文学专业必修课经验分享（plz语言学基础、hq/zsx文学理论、zgh/zyj现当代文学史12、zy/xxt古代文学史12、cch现汉、btg古汉1）](https://www.cc98.org/topic/6229591)
@@ -588,7 +590,11 @@ cm老师的小测合订本：
 
 ### 高级数据结构与算法分析（ADS）
 
-[【学习天地】高级数据结构与算法分析（ADS）2024-2025秋冬 课程总结 历年题整理 笔记分享 PTA习题详解 project分享 Hadoop MapReduce](https://www.cc98.org/topic/6083671)
+旧版资源汇总：[高级数据结构与算法分析 - 浙江大学课程攻略共享计划](https://qsctech.github.io/zju-icicles/高级数据结构与算法分析/)
+
+课程总结：[Starstone3的资料汇编](https://starstone3.github.io/incourse/ADS/)
+
+[高级数据结构与算法分析 - WintermelonC Docs](https://wintermelonc.github.io/WintermelonC_Docs/zju/compulsory_courses/ADS/)
 
 <br/>
 
