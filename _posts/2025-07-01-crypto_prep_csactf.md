@@ -32,11 +32,11 @@ mathjax: true
 >
 > [Factordb](factordb.com)
 >
-> [CTF在线工具-在线UUencode编码//UU编码//UUencode解码//UUencode编码原理//UUencode编码算法](http://www.hiencode.com/uu.html)
+> [CTF在线工具-在线UUencode编码\|UU编码\|UUencode解码\|UUencode编码原理\|UUencode编码算法](http://www.hiencode.com/uu.html)
 >
 > [CTF中那些迷惑人的”base64“_ctf base64](https://blog.csdn.net/q20010619/article/details/120770872)
 >
-> [Keyword Cipher: Free Online Monoalphabetic Substitution Tool // Educational Cryptography](https://caesarcipher.org/ciphers/keyword)
+> [Keyword Cipher: Free Online Monoalphabetic Substitution Tool \| Educational Cryptography](https://caesarcipher.org/ciphers/keyword)
 >
 > payload import开头：
 >
@@ -47,16 +47,17 @@ mathjax: true
 > import re
 > import gmpy2
 > import math
-> import requests 
+> import requests  # 如果在WSL中需要删掉这行
 > from pwn import *
 > import numpy as np
 > from math import isqrt, gcd
 > from fractions import Fraction
 > from Crypto.Util.number import long_to_bytes, bytes_to_long
 > import sympy
+> from Crypto.Cipher import AES
 > # from sage.all import *
 > ```
-{: .block-tip }
+> {: .block-tip }
 
 ## 环境准备
 
@@ -122,11 +123,20 @@ mathjax: true
 
   感觉是watt toolkit干的好事，会给我设置一堆回环地址（笑
 
-## RSA(复健)
+## RSA Review
 
-> 摘自自己的crypto lab2 report
+> 资源：[buuctf中的RSA刷题 - 骁隆's Blog](https://www.onctf.com/posts/d38358f9.html)
+>
+> [『CTF』史上最全 RSA 题目总结 - FreeBuf网络安全行业门户](https://www.freebuf.com/articles/web/287854.html)
+>
+> Dan Boneh. Twenty years of attacks on the RSA cryptosystem. *Notices of the American Mathematical Society (AMS)*, 46(2):203–213, 1999.
+>
+> 工具：RsaCtfTools
+>
 
-根据https://cryptohack.org/challenges/rsa/的指导，按部就班学习一下RSA加密算法的过程：
+> 以下摘自自己的crypto lab2 report：
+
+根据[cryptohack](https://cryptohack.org/challenges/rsa/)的指导，按部就班学习一下RSA加密算法的过程：
 
 > ##### TIP
 >
@@ -218,13 +228,13 @@ And please encode your input answers with HEX (remove '0x').
 @@@ m = 
 ```
 
+高位爆破，
 
 
 
 
 
-
-### 签名伪造(校巴-84)
+### 签名伪造(校巴-84)（没做出来，copy了题解）
 
 > [校巴题源](https://zjusec.com/challenges/84)
 
@@ -244,11 +254,11 @@ Signature forgery is the act of creating or imitating someone else's signature w
 
 题目的意思是：
 
-$\begin{cases} m = c^e\%N \\ s = m^d\%N \\ \end{cases}$
-
-所以考虑以下
 
 
+
+
+最终flag：`AAA{fff0rge_@_5ignature_vvith_fac7or1zation|bf6bfdc7}`
 
 ### 低指数攻击(校巴-5)
 
@@ -294,7 +304,7 @@ print(calc(c,n))
 
 ### Another RSA(校巴-12)
 
-```
+```bash
 Modulus n =
 0x009d70ebf2737cb43a7e0ef17b6ce467ab9a116efedbecf1ead94c83e5a082811009100708d690c43c3297b787426b926568a109894f1c48257fc826321177058418e595d16aed5b358d61069150cea832cc7f2df884548f92801606dd3357c39a7ddc868ca8fa7d64d6b64a7395a3247c069112698a365a77761db6b97a2a03a5
 
@@ -392,21 +402,276 @@ And please encode your input answers with HEX (remove '0x').
 [+] assert c == pow(m, e, p*q)
 [+] your job: guess m
 [-] m =
+```
 
-b'Good!\n'
-    b'[$] challenge 2\n'
-    b'[+] m = getrandbits(510)\n'
-    b'[+] e = 0x6\n'
-    b'[+] p = 0x93583c8f314318f1887e4533d5f1662fad416584cf6c777c4b441af66615c198296a69c5d8943b47762a08eef859cc5264a972621f09e424357e9f7631647903\n'
-    b'[+] q = 0xdd4e2477b3b7446e10e91441422dad64bd9a623fefa64c4a21afe05e4d116c98e7731b40a9e8199821008c9c73042609476320d70f67d2c8069c7e9c9fd84561\n'
-    b'[+] c = 0x76d01a0c51508b7555119779df1ad09cf847a2903b8f9dd1110dd34224f37d866e06d993cc81c4d5313f7e733caa541bee4e8201739297a1169d251c5ef09e8f4c50540d41be34177d067787dc694a0a754c7bf225c180040eb097a3339b8f8f2d51b13a2cfd1d641e7c5044cd6155610d23ba7322d7a74122335563bae1f11c\n'
-    b'[+] assert c == pow(m, e, p*q)\n'
-    b'[+] your job: guess m\n'
+>  [RSA常见题型二（e与φ(n)不互素） - xiehou~ - 博客园](https://www.cnblogs.com/llh-just/p/19000659)
+
+试了两次，$e,p,q$不变，只有$c$每次都变.
+
+这个题就比较有意思了，一开始想水一水结果猛地发现$e$是6，所以上网查一下不互素的方法：
+
+这里$$gcd(e,p-1) \neq 1, gcd(e,q-1) \neq 1$$，所以考虑有限域开方解密：
+
+> ##### TIP
+>
+> 有限域开方解密：
+>
+> 
+>
+>
+{: .block-tip }
+
+payload:
+
+```python
+n = p*q
+if len(hex_numbers) >= 2:
+    c = int(hex_numbers[3].replace('0x', ''), 16)
+    print(f"\033[91mGet c: {c}\033[0m")
+
+# print(gmpy2.gcd(e,p-1), gmpy2.gcd(e,q-1))  2,2
+d_ = gmpy2.invert(3,(p-1)*(q-1))
+res = pow(c,d_,n)
+m = gmpy2.iroot(res,2)[0]
+print(m)
+
+conn.sendline(hex(m)[2:])
 ```
 
 
 
-## DSA(复健)
+第三关：
+
+```bash
+[DEBUG] Received 0xec bytes:
+    b'Good!\n'
+    b'[$] challenge 3\n'
+    b'[+] e = 0x3\n'
+    b'[+] n = 0x4a471ffda8b4d8d223f6b64884b798a8a8356e6d024f92c46a9171c8841b\n'
+    b'[+] c = 0x243f8c3665c4d0bf633fcfbe1a215c2b454f76498780fac9337c9f043ebe\n'
+    b'[+] assert c == pow(m, e, n)\n'
+    b'[+] your job: guess m\n'
+    b'[-] m = \n'
+```
+
+水，yafu分解一下就行了.
+
+```python
+n = 0x4a471ffda8b4d8d223f6b64884b798a8a8356e6d024f92c46a9171c8841b
+e = 3
+p = 800336709776908303691579 # pow = 1
+q = 800336709776908303690799 # pow = 2
+phi = (p-1)*(q-1)*q
+d = gmpy2.invert(e,phi)
+m = pow(c,d,n)
+```
+
+
+
+第四关：
+
+```python
+Good!
+[$] challenge 4
+[+] e = 0x10001
+[+] n = 0x81a8a5d31d394cf22be1279821b393cf40fc50bfee4720c5a37d4adcca081733d4386a528d156db3c8e9a464c1d16057e656af4fd9b23ec162b2732758646f62c7349ddf384d415b177e7e4f9177d381da8ba389ea19c86baad6d4e18095cdb8221117260d7bb790bc8b5a8902022dc4f4614be72709d382be0f185ed474805b
+[+] dp = 0x46b50ee343445e826f0405f22a61902efeed47dd29e69b351ccb0e7d6377981c29dc6277a98934375f50de7309299fe92772110f855ee0d3af948185ee473c17
+[+] c = 0x43f1fb184075e53ec3de6260c6cf7ccb0c0642e7fe5c4776117614625bc52f840b515c14430cf76b4cef9f2b122649058b1f9e21c72f8a11404b00b9b8cae8882aff7ccc5ec42c128da96386f70c0e2302ffe819d69bfdb530ad3b1fd17099e82e07a5804ee859d16bdfcd2b088a4e8d777ac3822db50057e31ba35aae338200
+[+] assert dp == d%(p-1)
+[+] assert c == pow(m, e, n)
+[+] your job: guess m
+[-] m =
+```
+
+$n,e,d_p$都不变，只有$c$在变化.
+
+做一下数学运算：
+
+$$\begin{cases} de = 1 + k(p-1)(q-1) \\ d = d_p + k_1(p-1) \end{cases} \Longrightarrow de = 1 + k(p-1)(q-1) = ed_p+ek_1(p-1) $$
+
+$$\Longrightarrow ed_p\equiv 1 (\operatorname{mod}p-1)$$
+
+接下来对$ed_p-1$进行质因数分解. 使用yafu：
+
+```bash
+***factors found***
+
+P1 = 2
+P1 = 3
+P2 = 89
+P3 = 389
+P3 = 563
+P4 = 1429
+P18 = 169968591513043511
+P25 = 3667981971308739542102537
+P26 = 15755982260070350867116411
+P81 = 147841219862878791677613767939084109134052890161976374292828659446291852336876599
+
+ans = 1
+```
+
+接下来暴力枚举来计算$p,q$：
+
+```python
+n = 0x81a8a5d31d394cf22be1279821b393cf40fc50bfee4720c5a37d4adcca081733d4386a528d156db3c8e9a464c1d16057e656af4fd9b23ec162b2732758646f62c7349ddf384d415b177e7e4f9177d381da8ba389ea19c86baad6d4e18095cdb8221117260d7bb790bc8b5a8902022dc4f4614be72709d382be0f185ed474805b
+# print(int(n))
+
+e = 65537
+dp = 0x46b50ee343445e826f0405f22a61902efeed47dd29e69b351ccb0e7d6377981c29dc6277a98934375f50de7309299fe92772110f855ee0d3af948185ee473c17
+# assert dp == d%(p-1)
+# assert c == pow(m, e, n)
+# print(e*dp-1)
+
+li = [2,3,89,389,563,1429,169968591513043511,3667981971308739542102537,15755982260070350867116411,147841219862878791677613767939084109134052890161976374292828659446291852336876599]
+
+for k in range(1024):
+    p = 1
+    cnt = 0
+    k_ = k
+    while (k_ != 0):
+        if (k_ % 2 == 1):
+            p *= li[cnt]    
+        cnt += 1
+        k_ = k_ // 2
+    if (n % (p+1) == 0):
+        print(p+1)
+        print(n//(p+1))
+```
+
+得到：
+
+```python
+p = 7010173429825364096483198373148695080777600230634223905598006877008362970389922446515938798609891083009103950216075939132993276370895055486168201663192527
+q = 12988193913131624476685175811562898160517888405838841061588955125010438953846498671738108261014900926212870350440269819634930731186959088388206550178956213
+```
+
+payload略
+
+另一个做法：[RSA的dp泄露](https://blog.csdn.net/weixin_45859850/article/details/109559190)
+
+
+
+第五关：
+
+```bash
+[DEBUG] Received 0x1a9 bytes:
+    b'Good!\n'
+    b'[$] challenge 5\n'
+    b'[+] n = 0xb3eaacc65bf88213e2a641130ae0c382fb2682794e62385f9944f9ff7356bbe2b057226747f38e177cb758888297c7f843f95dda1f5831d2e8ce48256604d11b45fc9010cbd183ee646bf6c687792284bbf029b7abc9e53b87d66a9ef15dd982ac7fa73d99fdd6baaf512bd735b64e2fb2ca29d2bc2e250ae2f9322ece30424b\n'
+    b"[+] 1. server's job: print hex(pow(m, k, n) * pow((m+k), k, n) % n) \\# k is your input (k>0)\n"
+    b'[+] 2. your job: guess m\n'
+    b'[-] your choice: \n'
+```
+
+我觉得我是比较愚钝的（哭），可以看出来相关消息攻击讲了之后印象也不深刻，忘完了.
+
+> ##### TIP
+>
+> 相关消息攻击：如果加密的多条消息具有线性相关性，产生的攻击陈伟相关消息攻击.
+>
+> 例子：假设$$\begin{cases}m^e \equiv c_1 (\operatorname{mod} n) \\ (m+t)^e \equiv c_2 (\operatorname{mod} n)\end{cases}$$，$t$已知，那么可以定义$(\operatorname{mod} N)$下的多项式$$f_1 = x^e-c_1,f_2=(x+t)^e-c_2$$.
+>
+> 容易知道$m$是$f_1,f_2$的根，所以$f_1,f_2$由公因式$(x-m)$，因此求公因式就可以得到$gcd(f_1,f_2)=x-m\Longrightarrow \boxed{m}$.
+>
+{: .block-tip }
+
+这里试了一下赋值$k = 1,2$：
+
+$$\begin{cases} m^2+m \equiv r_1 & (\operatorname{mod} n) \\ m^4 + 4m^3 + 4m^2 \equiv r_2 & (\operatorname{mod} n) \end{cases}$$
+
+于是只需要将两个多项式求出(mod n)意义下的公因式即可，payload如下：
+
+（这部分比较特殊，使用了子过程处理sagemath环境的运算，再传递回python代码中）
+
+```python
+print("\033[91m这是交互第5轮\033[0m")
+data = conn.recvuntil(b'your choice: \n')
+server_message = data.decode()
+hex_numbers = re.findall(r'0x[0-9a-f]+', server_message)
+print(server_message)
+n = int(hex_numbers[0].replace('0x', ''), 16)
+print(f"\033[91mGet n: {n}\033[0m")
+
+conn.sendline(hex(1)[2:])
+data = conn.recvuntil(b'your k(hex): \n')
+
+# result = 0x---------- 
+conn.sendline(hex(1)[2:])
+data = conn.recvuntil(b'your choice: \n')
+server_message = data.decode()
+hex_numbers = re.findall(r'0x[0-9a-f]+', server_message)
+print(server_message)
+result1 = int(hex_numbers[0].replace('0x', ''), 16)
+print(f"\033[91mGet result1: {result1}\033[0m")
+
+conn.sendline(hex(1)[2:])
+data = conn.recvuntil(b'your k(hex): \n')
+
+conn.sendline(hex(2)[2:])
+data = conn.recvuntil(b'your choice: \n')
+server_message = data.decode()
+hex_numbers = re.findall(r'0x[0-9a-f]+', server_message)
+print(server_message)
+result2 = int(hex_numbers[0].replace('0x', ''), 16)
+print(f"\033[91mGet result2: {result2}\033[0m")
+
+sage_code = f"""
+import json
+n = {n}
+res1 = {result1}
+res2 = {result2}
+def related_message_attack(res1, res2, n):
+    PRx.<x> = PolynomialRing(Zmod(n))
+    g1 = x^2 + x - res1
+    g2 = x^4 + 4*x^3 + 4*x^2 - res2
+
+    def gcd(g1, g2):
+        while g2:
+            g1, g2 = g2, g1 % g2
+        return g1.monic()
+
+    return -gcd(g1, g2)[0]
+
+ans = int(related_message_attack(res1, res2, n))
+print("FINAL_RESULT:")
+print(int(ans))
+"""
+
+sage_path = "/usr/bin/sage"
+result = subprocess.run(
+        [sage_path, '-c', sage_code],
+        capture_output=True,
+        text=True,
+        timeout=30
+    )
+    
+if result.returncode == 0:
+        # 直接读取 SageMath 的输出（整数）
+    lines = result.stdout.strip().split('\n')
+    for line in lines:
+        if line.startswith('FINAL_RESULT:'):
+            continue
+        try:
+            m = int(line.strip())
+            print(f"Found result: {m}")
+            break
+        except ValueError:
+            continue
+else:
+    print(f"\033[91mFailed!!!!!!!!!!\033[0m")
+
+```
+
+最终：
+
+```bash
+Good!
+Well done! Here is the flag: ACTF{e3ea2c418757d09a123753de5d865771}
+```
+
+<br/>
+
+## DSA Review
 
 > 摘自自己的crypto lab1 report
 
@@ -419,7 +684,7 @@ b'Good!\n'
 >
 > 1. 首先指定素数$p,q$，其中$p$的长度是$L$，$q$的长度是$N<L$；
 >
-> 2. 现在我们用以下方法找到合适的$g$，满足$q$是满足$g^q \equiv 1 (\operatorname{mod} p)$的最小满足值：
+> 2. 现在我们用以下方法找到合适的$g$：
 >
 >    遍历$h = 2 \to p-2$的所有值，令$g = h^{\frac{p-1}{q}}\%p$且$g^k\equiv 1(\operatorname{mod} p)$的最小正整数解是$q$；
 >
@@ -447,6 +712,34 @@ b'Good!\n'
 
 ---
 
+温习一下[DSA那道题](https://zjusec.com/challenges/85)：
+
+我的破解思路：
+
+当$m_1 = m_2$时，有$H(m_1) = H(m_2)$，设为$H(m)$
+
+两个签名变为：$\begin{cases}s_1 \equiv k_1^{-1}(H(m) + xr_1) & (\operatorname{mod} q)\\
+s_2 \equiv (k_1+1)^{-1}(H(m) + xr_2) & (\operatorname{mod} q)\end{cases}$
+
+化简得：$4(x(r_1 - r_2) + s_2)(s_1 - s_2)^{-1}s_1 \equiv H(m) + xr_1 (\operatorname{mod} q)$
+
+解得 $x \equiv (H(m) - s_2s_1(s_1 - s_2)^{-1})[(r_1 - r_2)s_1(s_1 - s_2)^{-1} - r_1]^{-1} (\operatorname{mod} q)$
+
+<br/>
+
+[DSA Revenge](https://zjusec.com/challenges/118)：
+
+类似上题DSA的$k$复用情况，我的破解思路：
+
+当$m_1 = m_2$时，有$H(m_1) = H(m_2)$，设为$H(m)$
+
+两个签名变为：$\begin{cases}s_1 \equiv (k>>160)^{-1}(H(m) + xr_1) & (\operatorname{mod} q)\\
+s_2 \equiv [(ak+b)\%c>>160]^{-1}(H(m) + xr_2) & (\operatorname{mod} q) \end{cases}$
+
+解得 $x \equiv ??? (\operatorname{mod} q)$
+
+需要看论文
+
 
 
 ## Coppersmith方法(sagemath的使用)
@@ -454,6 +747,8 @@ b'Good!\n'
 > 摘自自己的crypto lab3 report
 
 参考文档：[Dense univariate polynomials over \(\ZZ/n\ZZ\), implemented using NTL - Polynomials](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_modn_dense_ntl.html#sage.rings.polynomial.polynomial_modn_dense_ntl.small_roots)
+
+[Coppersmith算法解决RSA加密问题-先知社区](https://xz.aliyun.com/news/13209)
 
 沉寂已久的Coppersmith出现了，我以为lab2就会用到的，然后想得过于复杂折磨死了自己，但现在还在做单变量Coppersmith的阅读理解.
 
@@ -487,7 +782,7 @@ b'Good!\n'
 > 应用上，**Sagemath的`small_root()`函数，是单变元方法的集成.**
 {: .block-tip }
 
-### 137-Crush on Proust
+### 校巴137-Crush on Proust
 
 Coppersmith下的RSA，但是题目描述很谜语人：
 
@@ -515,6 +810,22 @@ with open("output.txt","w") as f:
 ```
 
 output.txt中就是$n,c$的值.
+
+
+
+### 校巴134-Magic Mod
+
+不会做，以后有时间了再看看（：
+
+
+
+## PRNG问题（ Pseudo-Random Number Generator）
+
+资源：https://en.wikipedia.org/wiki/Category:Pseudorandom_number_generators
+
+### 校巴94-PRNG1
+
+
 
 
 
@@ -584,7 +895,7 @@ NSSCTF{cheese_is_power}
 
 ### 691-[BJDCTF 2020]base??
 
-Base64加密的变种吧，只是替换表而已
+Base64加密的变种，只是替换表而已.
 
 ```python
 '''
@@ -692,6 +1003,8 @@ print(long_to_bytes(flag))
 
 
 ### 6717-[BCACTF 2021]FNES_1
+
+感觉挺有意思可惜没时间做了.下面是题干，还没来得及看.
 
 ```python
 import random
@@ -852,29 +1165,11 @@ print(conn.recvline().strip().decode())
 
 ## 校巴杂题
 
-### 6-Magic Mod(扩展Euclid算法?)
-
-暂时不会做（：
-
-`
+摆了，试过了都不太会做（：
 
 ### 25-3DES
 
-
-
-
-
 ### 30-base64-encrypt
-
-
-
-
-
-
-
-
-
-
 
 ## Cryptohack
 
@@ -930,6 +1225,24 @@ print(conn.recvline().strip().decode())
 <br/>
 
 ### General
+
+#### You either know, XOR you don't
+
+```
+I've encrypted the flag with my secret key, you'll never be able to guess it.
+Remember the flag format and how it might help you in this challenge!
+0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104
+```
+
+丢到cyberchef里面，
+
+<center><img src="../photos/csactf_prep/xor_cc0.png" alt="rr" style="zoom: 50%;" /></center>
+
+可以看到myXORkey了，然后把这个放到左边的框里面就行了：
+
+<center><img src="../photos/csactf_prep/xor_cc1.png" alt="rr" style="zoom: 50%;" /></center>
+
+flag: `crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}`
 
 
 
@@ -1005,6 +1318,7 @@ print(conn.recvline().strip().decode())
 
   payload:
   {% raw %}
+  
   ```python
   from math import gcd
   # 参数略
@@ -1083,17 +1397,78 @@ print(result)
 
 暴力破解跑不动睡不着觉啊睡不着觉，深夜起来问队友有没有当时基础周做这个的，结果得到了上面那个writeup.
 
-于是找到了代码看了一下。还真是只能暴力破，估计代码写的哪里有问题于是学习一下：
+于是找到上面的wp的代码看了一下。还真是只能暴力破，估计代码问题很大于是学习一下：
+
+```python
+def check(matrix):
+    for i in range(3):
+        for j in range(10):
+            if matrix[i,j] < 32 or matrix[i,j] > 126:
+                return False
+    return True
+# 检查3×10矩阵中的所有元素是否都在ASCII可打印字符范围内(32-126)，这样解密后的结果可读
+
+encoded = b'\xfc\xf2\x1dE\xf7\xd8\xf7\x1e\xed\xccQ\x8b9:z\xb5\xc7\xca\xea\xcd\xb4b\xdd\xcb\xf2\x939\x0b\xec\xf2'
+encoded_iter = iter(encoded)
+
+RT = matrix(Zmod(256), [[0 for i in range(10)] for j in range(3)])
+i = 0
+
+for element in encoded_iter:
+    RT[i % 3, i // 3] = element
+    i += 1
+# 填充RT矩阵 ###############################################################
+    
+line1 = []
+line2 = []
+line3 = []
+
+a1 = RT[0,0]
+a2 = RT[1,0]
+a3 = RT[2,0]
+b1 = RT[0,1]
+b2 = RT[1,1]
+b3 = RT[2,1]
+c1 = RT[0,9]
+c2 = RT[1,9]
+c3 = RT[2,9]
+
+for i in range(256):
+    for j in range(256):
+        for k in range(256):
+            if (a1 * i + a2 * j + a3 * k) % 256 == 65:
+                if (32 <= (247 * i + 30 * j + 237 * k) % 256 <= 126 and 32 <= (204 * i+81 * j+139 * k) % 256 <= 126 and 32 <= (57 * i + 58 * j + 122 * k) % 256 <= 126):
+                    if (b1 * i + b2 * j + b3 * k) % 256 == 123:
+                        line1.append([i, j, k])
+                    elif (c1 * i + c2 * j + c3 * k) % 256 == 125:
+                        line3.append([i, j, k])
+                    else:
+                        line2.append([i, j, k])
+print(line1)
+
+########################## 极为暴力的纯破解方法 #########################
+
+total = 0
+MTN = matrix(Zmod(256), [[0,0,0],[0,0,0],[0,0,0]])
+for i in line1:
+    for j in line2:
+        for k in line3:
+            for l in range(3):
+                MTN[0,l] = i[l]
+                MTN[1,l] = j[l]
+                MTN[2,l] = k[l]
+            if MTN.is_invertible():
+                FT_cal = MTN * RT
+                if check(FT_cal):
+                    total += 1
+                    print("Case "+str(total)+":")
+                    print(FT_cal)
+                    print("\n")
+```
 
 
 
-
-
-
-
-
-
-### RSA 的密钥格式解析 (40%+35%)
+### RSA 的密钥格式解析
 
 > RSA 密钥的格式有很多种，常见的有 PEM、DER 等格式。PEM 格式的密钥是 Base64 编码的 DER 格式密钥，DER 格式的密钥是 ASN.1 编码的二进制格式。
 >
@@ -1220,19 +1595,17 @@ q = 319576316814478949870590164193048041239
 
 > ##### TIP
 >
-> 根据课上讲的DLP知识：
->
 > DLP（离散对数问题）：给定 $g^x \equiv y (\operatorname{mod} p)$ 中的 $g,y,p$，其中 $p$为大素数，求解 $x$.
 >
-> 是困难问题，目前无法多项式复杂度时间内解决
+> * 这是一个困难问题，目前无法多项式复杂度时间内解决（NP）.
 >
 > Diffie-Hellman密钥交换协议：
 >
-> 首先由参与方A,B公开参数$g,p$，并分别随机生成$x_A,x_B$，
+> * 首先由参与方A,B公开参数$g,p$，并分别随机生成$x_A,x_B$，
 >
-> 接着分别计算各自的公钥：$y_A = g^{x_A} (\operatorname{mod} p), y_B = g^{x_B} (\operatorname{mod} q)$
+> * 接着分别计算各自的公钥：$y_A = g^{x_A} (\operatorname{mod} p), y_B = g^{x_B} (\operatorname{mod} q)$
 >
-> 最后是确认：协商密钥为$y_B^{x_A} \equiv  y_A^{x_B} \equiv g^{x_Ax_B} (\operatorname{mod} p)$
+> * 最后是确认：协商密钥为$y_B^{x_A} \equiv  y_A^{x_B} \equiv g^{x_Ax_B} (\operatorname{mod} p)$
 >
 > <br/>
 >
@@ -1241,8 +1614,6 @@ q = 319576316814478949870590164193048041239
 > * cado-nfs工具求解
 > * 大步小步算法（BSGS算法）
 > * Pohlig-Hellman算法
->
-> 
 >
 > BSGS算法：
 >
@@ -1253,19 +1624,23 @@ q = 319576316814478949870590164193048041239
 >   1. 设$$x = \sqrt{m}x_0+x_1(0\leq x_0,x_1\leq \sqrt{m}) \Longrightarrow g^{\sqrt{m}x_0+x_1} \equiv y (\operatorname{mod} p)$$
 >
 >      $$\Longrightarrow g^{\sqrt{m}x_0} \equiv yg^{-x_1} (\operatorname{mod} p)$$
->   
+>
 >   2. 两边分别去计算并存储所有$x_0,x_1$代入后的值并进行比较，如果有一项对应相等就破解出了$x_0,x_1$，从而得出$x$.
 >
-> 
+> Pohlig-Hellman算法流程：（适用于$p-1$是光滑的情况，即$p-1 = \Pi^{k}_{i=1} p_i^{\alpha_i}$，其中的$p_i$都很小）
 >
-> Pohlig-Hellman算法：（适用于$p-1$是光滑的情况，即$p-1 = \Pi^{k}_{i=1} p_i^{\alpha_i}$，其中的$p_i$都很小）
+> 1. $$ p-1 = \Pi^{k}_{i=1} p_i^{\alpha_i} $$，并且对每个$p_i$，求出$x_i = x (\operatorname{mod} p_i^{\alpha_i})$；
 >
-> * 流程：
->   1. $$ p-1 = \Pi^{k}_{i=1} p_i^{\alpha_i} $$，并且对每个$p_i$，设$x =\sum\limits_{j = 0}^{\alpha_i-1} x_j  \times p_i^{j} (\operatorname{mod} p_i^{\alpha_i})$，
->   2. $g^x \equiv b (\operatorname{mod} p )\Longrightarrow g^{\frac{p-1}{p_i^t}*x} \equiv b^{\frac{p-1}{p_i^t}}(\operatorname{mod} p )$，其中$0<t<\alpha_i$. 记$A = g^{\frac{p-1}{p_i^t}}, B =  b^{\frac{p-1}{p_i^t}}$，则$A^x\equiv B(\operatorname{mod} p )$
->   3. 由于$A^{p_i^t}\equiv 1(\operatorname{mod} p ) \Longrightarrow A^{\sum\limits_{j=0}^{t-1}x_j*p_i^j}\equiv B(\operatorname{mod} p )$，所以考虑从$t=1$开始到$\alpha_i$，通过枚举计算出每一个$x_j$，从而得出$x (\operatorname{mod} p_i^{\alpha_i})$的值，用这些值构造CRT求解即可得到$x(\operatorname{mod} p-1)$的值.
+> 2. 逐位恢复$x_i$，即计算$$x_i = \sum\limits_{k = 0}^{\alpha_i-1}x_{ik}p_i^{k}$$式子中的每项$x_{ik}$：
 >
-> {: .block-tip }
+> 3. $g^{x_i} \equiv b (\operatorname{mod} p )\Longrightarrow g^{\frac{p-1}{p_i^t}\cdot x_i} \equiv b^{\frac{p-1}{p_i^t}}(\operatorname{mod} p )$，其中$0<t<\alpha_i$. 
+>
+>    记$A = g^{\frac{p-1}{p_i^t}}, B =  b^{\frac{p-1}{p_i^t}}$，则$A^{x_i}\equiv B(\operatorname{mod} p )$；
+>
+> 4. 由于对每个$t$，都有$A^{p_i^t}\equiv 1(\operatorname{mod} p ) \Longrightarrow A^{\sum\limits_{j=0}^{t-1}x_{ij}*p_i^j}\equiv B(\operatorname{mod} p )$，所以考虑从$t=1$开始到$\alpha_i$，通过先前计算出的每一个$x_{ij}$，带入得出$x_i (\operatorname{mod} p_i^{\alpha_i})$的值，用这些值构造CRT求解即可得到$x(\operatorname{mod} p-1)$的值.
+>
+{: .block-tip }
+
 
 先看题目源码：
 
@@ -1294,32 +1669,48 @@ ct = b'qBS\x84\xfc"\xee$\xb2d\xba\xeb\x00\xf7\xf4\xa4\x91\x90<N\x1a\xb0\xa5>\xdc
 '''
 ```
 
-
-
 因为`x = getPrime(500)`，所以不方便使用BSGS，时间复杂度过于高了.
 
 $p-1 = 2^{518}*1119326809698249181662206673457$
 
-用了yafu发现是个大素数，有点难办.
+用了yafu发现是个大素数，有点难办.所以试一下Pohlig-Hellman攻击.
 
-```bash
-PS D:\Downloads\yafu> ./yafu-x64.exe "factor(1119326809698249181662206673457)"
+接下来手搓一下这个代码：
 
-fac: factoring 1119326809698249181662206673457
-fac: using pretesting plan: normal
-fac: no tune info: using qs/gnfs crossover of 95 digits
-div: primes less than 10000
-fmt: 1000000 iterations
-Total factoring time = 0.0060 seconds
+```python
+p = # 略
+n = p - 1
+g = 3
+h = #略
+ct = b'qBS\x84\xfc"\xee$\xb2d\xba\xeb\x00\xf7\xf4\xa4\x91\x90<N\x1a\xb0\xa5>\xdc^\xe3I\xc3\xecc\x1e'
 
-***factors found***
+# 计算 x mod 2^518
+x = 0  # 累计值
+gamma = pow(g, n // 2, p)  # γ = g^(n/2) mod p，阶为2
 
-P31 = 1119326809698249181662206673457
+for k in range(518):
+    exponent = n // (2 ** (k + 1))  # 整数除法
+    h_k = (h * pow(g, -x, p)) % p  # 调整 h
+    temp = pow(h_k, exponent, p)
+    if temp == 1:
+        x_k = 0
+    elif temp == gamma:
+        x_k = 1
+    else:
+        print(f"Error at k={k}")
+        x_k = 0
+    x += x_k * (2 ** k)
 
-ans = 1
+print(f"x = {x}")
+assert (pow(g,x,p) == h)
+
+key = hashlib.md5(str(x).encode()).digest()
+cipher = AES.new(key, AES.MODE_ECB)
+decrypted = cipher.decrypt(ct) # 解密
+flag = decrypted.rstrip(b'\x00')  # 去除填充的空字节
+
+print(f"Flag: {flag.decode()}")
 ```
 
-所以只剩一个素数了，p-1看起来也不是很适合？算了先试一下吧.
-
-汗流浃背了，cado-nfs也使不出来Pohlig-Hellman攻击.
+Flag: `AAA{W31c0m3_T0_CT4_lo1_c0urs3!}`
 
