@@ -947,6 +947,16 @@ UEsDBBQACAAIAAZUilYAAAAAAAAAACUAAAAVACAATWFnaWMgb2YgRW5jb2RpbmcudHh0VVQNAAdNkTNk
 
 
 
+### 3971-
+
+暴力破解的方法：
+
+```bash
+$ hashcat -a 3 -m 0 496603d6953a15846cd7cc476f146771 LitCTF{md5can?a?a3de?arypt213thoughcr?ash}
+```
+
+
+
 ### 5197-[鹤城杯 2021]Crazy_Rsa_Tech
 
 典型RSA和中国剩余定理的题.
@@ -1310,7 +1320,7 @@ flag: `crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}`
 
   化简：
 
-  $$\begin{cases} c_1 \equiv (2p+3q)^{e_1} & (\operatorname{mod}N) \\ c_2 \equiv (5p+7q)^{e_2} & (\operatorname{mod}N) \end{cases} \Longrightarrow \begin{cases} c_1 \equiv (2p)^{e_1}+(3q)^{e_1} & (\operatorname{mod}N) \\ c_2 \equiv (5p)^{e_2}+(7q)^{e_2} & (\operatorname{mod}N) \end{cases} \Longrightarrow \begin{cases} c_1^{e_2}5^{e_1e_2} \equiv (10p)^{e_1e_2}+(15q)^{e_1e_2} & (\operatorname{mod}N) \\ c_2^{e_1}2^{e_1e_2} \equiv (10p)^{e_1e_2}+(14q)^{e_1e_2} & (\operatorname{mod}N) \end{cases}$$
+  $$\begin{cases} c_1 \equiv (2p+3q)^{e_1} & (\operatorname{mod}N) \\ c_2 \equiv (5p+7q)^{e_2} & (\operatorname{mod}N) \end{cases} \Longrightarrow \begin{cases} c_1 \equiv (2p)^{e_1}+(3q)^{e_1} & (\operatorname{mod}N) \\ c_2 \equiv (5p)^{e_2}+(7q)^{e_2} & (\operatorname{mod}N) \end{cases} $$$$\Longrightarrow \begin{cases} c_1^{e_2}5^{e_1e_2} \equiv (10p)^{e_1e_2}+(15q)^{e_1e_2} & (\operatorname{mod}N) \\ c_2^{e_1}2^{e_1e_2} \equiv (10p)^{e_1e_2}+(14q)^{e_1e_2} & (\operatorname{mod}N) \end{cases}$$
 
   $$ \Longrightarrow d = (15^{e_1e_2}-14^{e_1e_2})q^{e_1e_2} \equiv 5^{e_1e_2}c_1^{e_2}-2^{e_1e_2}c_2 ^{e_1} (\operatorname{mod}N)$$
 
@@ -1342,6 +1352,14 @@ flag: `crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}`
   指出了一个问题：为什么RSA中$N$一定要是$p\times q$?如果$N$是一个大素数呢？
 
   这样的话，$\phi(N)$是非常好计算的，进而$d$也可以破解了.
+
+### Symmetirc cryptography
+
+- What is the mathematical term for a one-to-one correspondence?   $\textcolor{red}{Bijection}$.
+
+
+
+
 
 ### RSA
 
@@ -1397,7 +1415,7 @@ print(result)
 
 暴力破解跑不动睡不着觉啊睡不着觉，深夜起来问队友有没有当时基础周做这个的，结果得到了上面那个writeup.
 
-于是找到上面的wp的代码看了一下。还真是只能暴力破，估计代码问题很大于是学习一下：
+于是看了一下代码，还真是只能暴力破，估计自己搓的代码问题很大于是学习一下：
 
 ```python
 def check(matrix):
@@ -1550,7 +1568,7 @@ RSAPrivateKey ::= SEQUENCE {
 
 （现在知道之前赶出来的报告里面对这部分的理解有多荒谬了）
 
-使用ufreetools解出来$e= 65537$，n的值通过拼接上面的hex然后转成10进制得出，为87924348264132406875276140514499937145050893665602592992418171647042491658461
+使用ufreetools解出来$e= 65537$，$n$的值通过拼接ufreetools给出的hex然后转成10进制得出，为87924348264132406875276140514499937145050893665602592992418171647042491658461
 
 使用yafu分解之后得到：
 
@@ -1673,7 +1691,7 @@ ct = b'qBS\x84\xfc"\xee$\xb2d\xba\xeb\x00\xf7\xf4\xa4\x91\x90<N\x1a\xb0\xa5>\xdc
 
 $p-1 = 2^{518}*1119326809698249181662206673457$
 
-用了yafu发现是个大素数，有点难办.所以试一下Pohlig-Hellman攻击.
+用了yafu发现是个大素数，有点难办. 所以试一下Pohlig-Hellman攻击.
 
 接下来手搓一下这个代码：
 
