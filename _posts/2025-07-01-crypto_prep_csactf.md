@@ -57,7 +57,7 @@ mathjax: true
 > from Crypto.Cipher import AES
 > # from sage.all import *
 > ```
-> {: .block-tip }
+{: .block-tip }
 
 ## 环境准备
 
