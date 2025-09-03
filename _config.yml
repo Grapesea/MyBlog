@@ -9,10 +9,10 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-repository: Grapesea/My_Blog
+repository: Grapesea/MyBlog
 github_username: Grapesea
 url:              'https://Grapesea.github.io'
-baseurl:          '/My_Blog'
+baseurl:          '/MyBlog'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -64,7 +64,7 @@ exclude:
 collections:
   posts:
     output: true
-    permalink: /:categories/:year-:month-:day-:title:output_ext
+    permalink: /:categories/:title:output_ext
   pages:
     output: true
     permalink: /:path/

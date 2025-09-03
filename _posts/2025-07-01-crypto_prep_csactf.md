@@ -718,8 +718,8 @@ Well done! Here is the flag: ACTF{e3ea2c418757d09a123753de5d865771}
 
 当$m_1 = m_2$时，有$H(m_1) = H(m_2)$，设为$H(m)$
 
-两个签名变为：$\begin{cases}s_1 \equiv k_1^{-1}(H(m) + xr_1) & (\operatorname{mod} q)\\
-s_2 \equiv (k_1+1)^{-1}(H(m) + xr_2) & (\operatorname{mod} q)\end{cases}$
+两个签名变为：$$\begin{cases}s_1 \equiv k_1^{-1}(H(m) + xr_1) & (\operatorname{mod} q)\\
+s_2 \equiv (k_1+1)^{-1}(H(m) + xr_2) & (\operatorname{mod} q)\end{cases}$$
 
 化简得：$4(x(r_1 - r_2) + s_2)(s_1 - s_2)^{-1}s_1 \equiv H(m) + xr_1 (\operatorname{mod} q)$
 
@@ -733,8 +733,8 @@ s_2 \equiv (k_1+1)^{-1}(H(m) + xr_2) & (\operatorname{mod} q)\end{cases}$
 
 当$m_1 = m_2$时，有$H(m_1) = H(m_2)$，设为$H(m)$
 
-两个签名变为：$\begin{cases}s_1 \equiv (k>>160)^{-1}(H(m) + xr_1) & (\operatorname{mod} q)\\
-s_2 \equiv [(ak+b)\%c>>160]^{-1}(H(m) + xr_2) & (\operatorname{mod} q) \end{cases}$
+两个签名变为：$$\begin{cases}s_1 \equiv (k>>160)^{-1}(H(m) + xr_1) & (\operatorname{mod} q)\\
+s_2 \equiv [(ak+b)\%c>>160]^{-1}(H(m) + xr_2) & (\operatorname{mod} q) \end{cases}$$
 
 解得 $x \equiv ??? (\operatorname{mod} q)$
 
