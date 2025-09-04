@@ -236,8 +236,6 @@ And please encode your input answers with HEX (remove '0x').
 
 ### 签名伪造(校巴-84)（没做出来，copy了题解）
 
-> [校巴题源](https://zjusec.com/challenges/84)
-
 PoW后，进入description：
 
 ```
@@ -261,8 +259,6 @@ Signature forgery is the act of creating or imitating someone else's signature w
 最终flag：`AAA{fff0rge_@_5ignature_vvith_fac7or1zation|bf6bfdc7}`
 
 ### 低指数攻击(校巴-5)
-
-> [校巴题源](https://zjusec.com/challenges/5)
 
 ```bash
 Hint: Textbook RSA，信息没有任何 padding！
@@ -567,7 +563,7 @@ payload略
 
 > ##### TIP
 >
-> 相关消息攻击：如果加密的多条消息具有线性相关性，产生的攻击陈伟相关消息攻击.
+> 相关消息攻击：如果加密的多条消息具有线性相关性，产生的攻击称为相关消息攻击.
 >
 > 例子：假设$$\begin{cases}m^e \equiv c_1 (\operatorname{mod} n) \\ (m+t)^e \equiv c_2 (\operatorname{mod} n)\end{cases}$$，$t$已知，那么可以定义$(\operatorname{mod} N)$下的多项式$$f_1 = x^e-c_1,f_2=(x+t)^e-c_2$$.
 >
@@ -696,7 +692,7 @@ Well done! Here is the flag: ACTF{e3ea2c418757d09a123753de5d865771}
 >
 > 1. 随机选择临时密钥$k(0<k<q)$（且不能重用，否则就会像这个题目一样被攻击）；
 >
-> 2. $\begin{cases} r \equiv (g^k \% p) \% q & (\operatorname{mod}q) \\ s \equiv (H(m) + xr) k^{-1}\%q & (\operatorname{mod} q)\end{cases}$
+> 2. $$\begin{cases} r \equiv (g^k \% p) \% q & (\operatorname{mod}q) \\ s \equiv (H(m) + xr) k^{-1}\%q & (\operatorname{mod} q)\end{cases}$$
 >
 >    于是签名结果就是$(r,s)$
 >
@@ -712,7 +708,7 @@ Well done! Here is the flag: ACTF{e3ea2c418757d09a123753de5d865771}
 
 ---
 
-温习一下[DSA那道题](https://zjusec.com/challenges/85)：
+温习一下[DSA基础攻击题](https://zjusec.com/challenges/85)：
 
 我的破解思路：
 
@@ -1355,9 +1351,9 @@ flag: `crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}`
 
 ### Symmetirc cryptography
 
-- What is the mathematical term for a one-to-one correspondence?   $\textcolor{red}{Bijection}$.
+- The mathematical term for a one-to-one correspondence:   $\textcolor{red}{Bijection}$.
 
-
+* The best single-key attack against AES:   $\textcolor{red}{biclique}$
 
 
 
@@ -1373,7 +1369,7 @@ flag: `crypto{1f_y0u_Kn0w_En0uGH_y0u_Kn0w_1t_4ll}`
 
 > [crypto lab 1: 消息加密和数字签名 - CTF101-Labs-2025](https://courses.zjusec.com/intro/crypto-lab1/#task-40)
 >
-> 这个lab之前我只完成了DSA部分（而且DSA_Revenge也做不出来)，学习一下剩余的知识点
+> 这个lab之前我只完成了DSA部分（而且DSA_Revenge也做不出来)，学习一下剩余的知识点.
 
 ### 古典密码的拓展 (60%)
 
