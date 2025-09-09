@@ -52,7 +52,7 @@ mathjax: true
 
 **这就是本文的第一个断言：人在面临任何选择时，对某个行为的真实倾向，都必然可以表示为该行为的未来价值函数** $V(\tau)$ **，和权重贴现函数** $W(\tau) $**的乘积，从当下这一刻（$\tau=0 $）到无穷远处的积分：**
 
-$  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
+$$  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $$
 
 其中：
 
@@ -61,7 +61,7 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 
 **换言之，我们面对选择的时候，并不是把所有“未来的价值”加在一起再决定，而是取决于未来所有时刻的价值加权总和，一般来说，眼前的价值权重更高，而未来的价值权重则更低。**
 
-<img src="https://pica.zhimg.com/80/v2-ec797239c6b88659933dfb05444a1ecc_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://pica.zhimg.com/80/v2-ec797239c6b88659933dfb05444a1ecc_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 就拿刚才那个“去学习 vs. 刷手机”的例子来说：
 
@@ -107,7 +107,7 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 
 （为了后续表示更方便，我不会单独画出这个切换代价的冲激函数，而是自动将它合并到价值函数 $V(\tau) $中。）
 
-<img src="https://picx.zhimg.com/80/v2-817def7ded8665b9414103a62ea5524e_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-817def7ded8665b9414103a62ea5524e_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 **不过，有些时候我们也可以自然地抵抗玩手机的诱惑。考前复习周，DDL前夕就是这样的时候。**
 
@@ -138,9 +138,9 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 - **稍微有用的方法3（近期惩罚）** 把手机锁起来，或者找人监督。这相当于在近期提高放纵行为的切换成本，即对其 $V(\tau)$ 近期插入负值——这种方法有用，但不多；
 - **有用的方法4（非线性压缩）** 比如很多人都熟悉的“番茄工作法”。其机理实际上是在学习开始后，变换“中途放弃”的 $V(\tau)$ ，将整个番茄钟的沉没成本打包、捆绑，然后非线性压缩到当下的一刻——这是比较有用的方法，在后面讲解 CTDP（第一代技术）时，我们会对其进行详细展开。
 
-为了更直观地衡量这些方法的有效性，我们还可以定义一个指标，那就是自控策略的增益（$G$）：
+为了更直观地衡量这些方法的有效性，我们还可以定义一个指标，那就是自控策略的增益（学习放纵$G$）：
 
-学习放纵学习放纵$G=\frac{I'(学习)}{I'(放纵)}/\frac{I(学习)}{I(放纵)}$  
+$$G=\frac{I'(学习)}{I'(放纵)}/\frac{I(学习)}{I(放纵)}$$  
 
 简单来说，就是使用策略前后的理性决策倾向之比。如果用这个指标去检验市面上绝大多数主流的所谓“自控方法”，你会发现，它们的增益普遍低得可怜。**要么仅仅在权重极低的远端做文章，要么甚至根本就不作用于价值函数** $V(\tau)$ **！**
 
@@ -182,7 +182,7 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 
 > **把第一次专注的纪录记为#1，此后每次花一个小时专注成功，都可以作为工作量证明，为这个“神圣座位”增加一个编号记录：#1、#2、...、#N。 但只要有一次失败——比如你在上面刷了手机，或者只坐了十分钟就走人——那么所有纪录都会被清零，下次只能重新从#1开始。** 
 
-**随着这个链条不断延长，工作量证明不断积累，这个虚构的座位的价值会一次次地增强。当这个“专注任务链”增长到 **#10、#20、#30的时候，这个规则的约束简直就要实质化了——你甚至可能变得谨小慎微，连大气都不敢出，生怕有一丝一毫对规则的不敬。
+**随着这个链条不断延长，工作量证明不断积累，这个虚构的座位的价值会一次次地增强。当这个“专注任务链”增长到**#10、#20、#30的时候，这个规则的约束简直就要实质化了——你甚至可能变得谨小慎微，连大气都不敢出，生怕有一丝一毫对规则的不敬。
 
 **（聪明的你肯定想到了这个规则可能崩溃+你不愿意坐上去的问题，别急，这正是8,9节要解决的）**
 
@@ -205,7 +205,7 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 
 **然而，所有的”纪录“，都天然带有“一损俱损”的特性：一旦你打破了这个纪录，所有这一切辛苦积累的沉没成本和未来预期，都会立即，突然地在** $\tau=0$ **的瞬间彻底失去！**
 
-<img src="https://pic1.zhimg.com/80/v2-733e696e51bf2761fe5c62b6fc665bf8_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" />
+<center><img src="https://pic1.zhimg.com/80/v2-733e696e51bf2761fe5c62b6fc665bf8_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" /></center>
 
 这便是“神圣座位原理”的背后数学本质：**对** $V(\tau)$ **的非线性压缩变换。**
 
@@ -263,7 +263,7 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 
 既然你自己也清楚，只要有了第一次“下不为例”，就必然会产生无数次后续的耍赖行为。那么，不如反其道而行之，强制要求自己“下必为例”——也就是说，**反过来要求自己以后必须耍赖！**
 
-<img src="https://picx.zhimg.com/80/v2-80b8277d4a27c51ca7b7cda174246198_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-80b8277d4a27c51ca7b7cda174246198_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 具体而言，当你面临任何疑似违规的判定时，就像西方法律体系里的“判例法”一样，只能在下面两个选项中选择一个：
 
@@ -310,7 +310,7 @@ $  I=\int_0^{\infty}V(\tau)⋅W(\tau)\mathrm{d}\tau  $
 - 假设你找到一个典型的拖延症患者，问他：“你愿不愿意此刻立刻开始学习？”他多半会摇头拒绝；
 - 但如果你换个方式问他：“那你愿意明天下午再开始学习吗？”甚至不用等那么远：“15分钟后再开始怎么样？”**这一次，他居然多半会表示同意！而且，这个时延越长，这个人表示同意的概率就越高。**
 
-<img src="https://pica.zhimg.com/80/v2-ce2433360fa4ad55c831a08d4c6c5364_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" />
+<center><img src="https://pica.zhimg.com/80/v2-ce2433360fa4ad55c831a08d4c6c5364_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" /></center>
 
 **为什么会出现这个奇特的现象呢？**
 
@@ -392,7 +392,7 @@ CTDP 是一种基于三个核心原理（神圣座位原理、下必为例原理
 
 其实并不一定，它可以是任何具体的、容易区分的标志。比如我自己平时用的标志便是一个专门的微信小号，每次开始任务时就发一条消息，用来触发任务，同时也记录节点和目标声明；
 
-<img src="https://picx.zhimg.com/80/v2-e40d67e46339898ebeb4d21b8170e55e_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-e40d67e46339898ebeb4d21b8170e55e_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" /></center>
 
 CTDP表面的画风
 
@@ -417,7 +417,7 @@ CTDP表面的画风
 
 在假期，一个兼顾运动和自学的三日级纵队，又可以按6突击组+3工程组合成。
 
-<img src="https://picx.zhimg.com/80/v2-b416403bf84f59550e99103df7281d04_1440w.webp?source=2c26e567" alt="img" style="zoom: 50%;" />
+<center><img src="https://picx.zhimg.com/80/v2-b416403bf84f59550e99103df7281d04_1440w.webp?source=2c26e567" alt="img" style="zoom: 50%;" /></center>
 
 CTDP实际的画风
 
@@ -427,7 +427,7 @@ CTDP实际的画风
 
 > **以第四任务群，十一任务群加十五、十六两个独立侦查组，强化下周作业的ddl防线；**  **二、三、七、八、九五个任务群，加六任务群十七突击组，集中力量完成笔记；**  **十突击群加一个突击组，在托福，GRE一线，阻击到复习时间的单词；**  **十二任务群配合十二个独立单元，围剿此前找到的知识漏洞；**  **五任务群和第六任务群的两个侦查组，查找资料； 十四任务群作总预备队，不动！** 
 
-<img src="https://picx.zhimg.com/80/v2-deeb10447bc28767c174b0a900dd8220_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-deeb10447bc28767c174b0a900dd8220_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 一些题外话：
 
@@ -496,7 +496,7 @@ CTDP实际的画风
 
 假如根据你所有过往的选择纪录，统计你最终走向两个分支的概率，你会发现两者的差距极为悬殊——或许高达99%比1%（此处只是概念性举例，并不需要实际统计）。
 
-<img src="https://pica.zhimg.com/80/v2-d34e6a417ac5e72381b0d246d85e8f03_1440w.webp?source=2c26e567" alt="img" style="zoom: 40%;" />
+<center><img src="https://pica.zhimg.com/80/v2-d34e6a417ac5e72381b0d246d85e8f03_1440w.webp?source=2c26e567" alt="img" style="zoom: 40%;" /></center>
 
 现在，我们可以引入一个关键的假设——**“有限自由意志”假设**：
 
@@ -512,7 +512,7 @@ CTDP实际的画风
 
 >  当一串决策节点的概率差距超过某个阈值（比如90% : 10%）时，我们便可以认定它超出自由意志的干预范围。然后，直接将概率较低的选项忽略不计，把这些微观节点近似粗粒化为一个整体的“不可逃逸区”。 
 
-<img src="https://pica.zhimg.com/80/v2-c2e390b1d645e3d51ce6ec792f767d50_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://pica.zhimg.com/80/v2-c2e390b1d645e3d51ce6ec792f767d50_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 如果从更大尺度上俯瞰，在这些“不可逃逸区”内部，那些看似独立的决策节点，已经被更大尺度的因素（如眼前诱惑、当下情绪、身体的疲惫以及根深蒂固的习惯等）在统计意义上决定。而小尺度的，自由意志的选择，例如刷视频还是玩游戏，具体刷哪一个短视频，反而变得不重要了。
 
@@ -528,7 +528,7 @@ CTDP实际的画风
 
 为了简单理解这种方法，不妨想象这样一个小游戏：
 
-<img src="https://pica.zhimg.com/80/v2-1c5fc956b14216660ad0b1a557639115_1440w.webp?source=2c26e567" alt="img" style="zoom: 50%;" />
+<center><img src="https://pica.zhimg.com/80/v2-1c5fc956b14216660ad0b1a557639115_1440w.webp?source=2c26e567" alt="img" style="zoom: 50%;" /></center>
 
 图来源：Olena Shmahalo/Quanta Magazine
 
@@ -549,7 +549,7 @@ CTDP实际的画风
 2. 用“赢者通吃”的方式，决定这个大格子的方向（比如三个↑一个↓，那整个块就记作↑，如果数量相同，就随机选一个方向，或者按照某种简单规则处理）；
 3.  接着，用新得到的大格子继续重复这个合并操作……
 
-<img src="https://picx.zhimg.com/80/v2-b654cd670db4596b315b1bba60a5b8ca_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-b654cd670db4596b315b1bba60a5b8ca_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 图来源：Olena Shmahalo/Quanta Magazine
 
@@ -570,7 +570,7 @@ CTDP实际的画风
 
 （注：现实世界中还可能存在各向异性能，热涨落，缺陷，应力等复杂因素，这只是一个非常简化的启发式讨论）
 
-<img src="https://picx.zhimg.com/80/v2-767825b68a8d87806e15ad80a5ace488_1440w.webp?source=2c26e567" alt="img" style="zoom: 50%;" />
+<center><img src="https://picx.zhimg.com/80/v2-767825b68a8d87806e15ad80a5ace488_1440w.webp?source=2c26e567" alt="img" style="zoom: 50%;" /></center>
 
 Heutling, B., Uebrig, A., & Awerbuch, M. (2023). Wirbelstromprüfung von ferritisch-austenitischen Duplexwerkstoffen und Nickel mit Phasenauswertung in der Wärmetauscherrohrprüfung. DGZfP Jahrestagung 2023, Friedrichshafen, May, Germany 
 
@@ -596,7 +596,7 @@ Heutling, B., Uebrig, A., & Awerbuch, M. (2023). Wirbelstromprüfung von ferriti
 
 **一个因素的重要性，往往取决于你所处的观察尺度——在小尺度中举足轻重的规则，在更大尺度下可能完全被平均掉；而那些在小尺度几乎不可察觉的长程趋势，却可能在粗粒化的过程中层层累积，最终主宰系统的宏观走向。**
 
-<img src="https://picx.zhimg.com/80/v2-3217cfd3d8d0d60974b968af184b9c4b_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-3217cfd3d8d0d60974b968af184b9c4b_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" /></center>
 
 重整化群思想在不同研究对象中的应用。图来源：Klemm K. A zoom lens for networks[J]. Nature Physics, 2023, 19(3): 318-319.
 
@@ -733,7 +733,7 @@ CTDP的问题就在于，它只能临时地干涉系统的某些节点，**即�
 
 >  行棋至此，红棋已经形成了“三步杀”的局面。 
 
-<img src="https://picx.zhimg.com/80/v2-71b5a1e5c3e88003a41247ebb5693776_1440w.webp?source=2c26e567" alt="img" style="zoom: 25%;" />
+<center><img src="https://picx.zhimg.com/80/v2-71b5a1e5c3e88003a41247ebb5693776_1440w.webp?source=2c26e567" alt="img" style="zoom: 25%;" /></center>
 
 **所谓的“三步杀”是什么意思呢？**
 
@@ -857,7 +857,7 @@ CTDP的问题就在于，它只能临时地干涉系统的某些节点，**即�
 
 **这就是“递归回溯算法”的核心逻辑：尝试 → 失败 → 撤回 → 换路径 → 继续尝试，直到成功。就像在下棋时，通过不断地悔棋来确保找到一条必胜之路一样。**
 
-<img src="https://picx.zhimg.com/80/v2-5168794de70ae0e8dccded416cd764dd_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-5168794de70ae0e8dccded416cd764dd_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" /></center>
 
 那么，我们该如何应用递归回溯算法，来设计这些“定式”的添加顺序呢？
 
@@ -874,7 +874,7 @@ CTDP的问题就在于，它只能临时地干涉系统的某些节点，**即�
 1. **定式的添加规则：每天最多只能将一个新的定式作为子节点加入到定式树中。** 例如，我发现H定式和已有的F定式是高度相关的，那么我可以将H定式作为F的子节点加入； 如果发现E定式看起来像是全新的一个领域，我也可以直接建立一个新的分支。
 2. **定式的删除规则：以“堆栈结构”来管理，一旦删除某个定式，就同时删除它的所有子节点。** 例如，定式C有一次执行失败了，这就说明C定式以及后续的F,H组合并不稳定，那就大大方方地将其删除，同时删除其后续的F，H定式。（当然，未来还可以重新尝试将C定式再次加入树的末尾）
 
-<img src="https://picx.zhimg.com/80/v2-6c819767b171a26b990cffc9eb4a1549_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" />
+<center><img src="https://picx.zhimg.com/80/v2-6c819767b171a26b990cffc9eb4a1549_1440w.webp?source=2c26e567" alt="img" style="zoom:33%;" /></center>
 
 表面上RSIP的画风
 
@@ -910,7 +910,7 @@ CTDP的问题就在于，它只能临时地干涉系统的某些节点，**即�
 
 因为，在现实中，这套方法早已有一个几乎一模一样的对应物——那就是著名战略游戏《钢铁雄心》系列里的**国策树（National Focus Tree）**：
 
-<img src="https://pic1.zhimg.com/80/v2-71df943a293649fc1211c7509f0e5deb_1440w.webp?source=2c26e567" alt="img" style="zoom: 25%;" />
+<center><img src="https://pic1.zhimg.com/80/v2-71df943a293649fc1211c7509f0e5deb_1440w.webp?source=2c26e567" alt="img" style="zoom: 25%;" /></center>
 
 实际上RSIP的画风
 
@@ -924,7 +924,7 @@ CTDP的问题就在于，它只能临时地干涉系统的某些节点，**即�
 
 现实应用中，我自己也喜欢用思维导图软件（比如MindMaster）来管理这样的国策树；为RSIP设计各种各样国策的过程，其实也极具趣味：
 
-<img src="https://pica.zhimg.com/80/v2-1858c5c631c42e8b4dbae97e2d508c3a_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" />
+<center><img src="https://pica.zhimg.com/80/v2-1858c5c631c42e8b4dbae97e2d508c3a_1440w.webp?source=2c26e567" alt="img" style="zoom: 33%;" /></center>
 
 -  比如，针对晚上的洗澡拖延症问题，我设计的“国策”是：  **利用苹果手机的自动化功能，一旦晚上定位从外面回到家里，就自动启动15分钟倒计时，必须在倒计时结束前进入浴室开始洗澡；** 
 -  又比如，为了应对早上起床后玩手机，导致全天浑浑噩噩的问题，我设计的“国策”则是：  **起床后的前30分钟内严禁使用手机，只能用来做一些正事，比如洗漱、整理、吃早餐或看邮件，从而激活一天的状态；** 

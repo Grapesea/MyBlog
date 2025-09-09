@@ -7,7 +7,7 @@ mermaid: true
 mathjax: true
 ---
 
-> ##### TIP
+> ##### TIP: 工具准备
 >
 > Resource List:
 >
@@ -138,73 +138,72 @@ mathjax: true
 
 根据[cryptohack](https://cryptohack.org/challenges/rsa/)的指导，按部就班学习一下RSA加密算法的过程：
 
-> ##### TIP
+> ##### TIP: RSA加密基础
 >
-> RSA加密基础：
 > * 概念与定义：
 >
->   **约定记号：$x=y (\operatorname{mod} N)$表明$x$的满足情况之下最小且唯一性；$x\equiv y (\operatorname{mod} N)$表明$x$只要是使得等式成立的任意值即可.**
+>    **约定记号：$x=y (\operatorname{mod} N)$表明$x$的满足情况之下最小且唯一性；$x\equiv y (\operatorname{mod} N)$表明$x$只要是使得等式成立的任意值即可.**
 >
->   首先引入模幂（Modular Exponentiation）的概念：
+>    首先引入模幂（Modular Exponentiation）的概念：
 >
->   这是一次取幂再取模操作之后的余数，Python中记作`pow(base, exponent, modulus)`，即$remainder = base^{exponent} (\operatorname{mod}modulus)$
+>    这是一次取幂再取模操作之后的余数，Python中记作`pow(base, exponent, modulus)`，即$remainder = base^{exponent} (\operatorname{mod}modulus)$
 >
->   这个操作的正逆向难度不同，即从base, exponent, modulus推出remainder易，但知道了remainder在内的任意三个信息则较难推出剩余信息。
+>    这个操作的正逆向难度不同，即从base, exponent, modulus推出remainder易，但知道了remainder在内的任意三个信息则较难推出剩余信息。
 >
->   模幂（Modular Exponentiation）和大素数分解（prime factorisation）叠加在一起就能制造出**陷门**（Trap Door, a function that is easy to compute in one direction, but hard to do in reverse unless you have the right information）
+>    模幂（Modular Exponentiation）和大素数分解（prime factorisation）叠加在一起就能制造出**陷门**（Trap Door, a function that is easy to compute in one direction, but hard to do in reverse unless you have the right information）
 >
-> <br/>
+>   <br/>
 >
 > * 公钥$(e,N)$的生成：
 >
->   我们考虑$N = p \times q$作为modulus，其中$p,q$都是素数；$e$是幂，所以公钥对就是$(N,e)$.
+>    我们考虑$N = p \times q$作为modulus，其中$p,q$都是素数；$e$是幂，所以公钥对就是$(N,e)$.
 >
->   常见的$e$值是65537，也就是`0x10001`.
+>    常见的$e$值是65537，也就是`0x10001`.
 >
->   现在我们输入一条待加密信息$m$，用公钥经过模幂计算就可以得到加密文本.
+>    现在我们输入一条待加密信息$m$，用公钥经过模幂计算就可以得到加密文本.
 >
->   ```python
->   p = 17
->   q = 23
->   e = 65537
->   m = 12
->   cipher = pow(m, e, p*q)
->   print(cipher)
->   ```
+>    ```python
+>     p = 17
+>     q = 23
+>     e = 65537
+>     m = 12
+>     cipher = pow(m, e, p*q)
+>     print(cipher)
+>    ```
 >
->   私钥$(d,N)$（Private Key）:在数值上是满足$d \equiv e^{-1} (\operatorname{mod}\phi(N))$这一方程的**任一正整数解**.
+>    私钥$(d,N)$（Private Key）:在数值上是满足$d \equiv e^{-1} (\operatorname{mod}\phi(N))$这一方程的**任一正整数解**.
 >
-> <br/>
+>   <br/>
 >
 > * 还原message：
 >
->   拥有了加密后的信息$c$，所有公钥和私钥信息，想要还原$message$，应该怎么做呢？
+>    拥有了加密后的信息$c$，所有公钥和私钥信息，想要还原$message$，应该怎么做呢？
 >
->   首先注意到$e \times d \equiv 1 (\operatorname{mod} \phi (N))$，于是$\exists k \in Z, e \times d = 1 + k\phi(N)$
+>    首先注意到$e \times d \equiv 1 (\operatorname{mod} \phi (N))$，于是$\exists k \in Z, e \times d = 1 + k\phi(N)$
 >
->   由于$c = m^e (\operatorname{mod} \phi(N))$，所以$c^d \equiv (m^e)^d \equiv m^{ed} \equiv m^{1+k\phi(N)} \equiv m (\operatorname{mod} N)$，
+>    由于$c = m^e (\operatorname{mod} \phi(N))$，所以$c^d \equiv (m^e)^d \equiv m^{ed} \equiv m^{1+k\phi(N)} \equiv m (\operatorname{mod} N)$，
 >
->   其中后半部分是由欧拉定理得到的：$(m,N) = 1 \Longrightarrow m^{\phi(N)} \equiv 1(\operatorname{mod}N) \Longrightarrow m^{k\phi(N)} \equiv 1(\operatorname{mod}N)$ 
+>    其中后半部分是由欧拉定理得到的：$(m,N) = 1 \Longrightarrow m^{\phi(N)} \equiv 1(\operatorname{mod}N) \Longrightarrow m^{k\phi(N)} \equiv 1(\operatorname{mod}N)$ 
 >
->   于是$m = c^d(\operatorname{mod} N)$，这就是我们希望的答案.
+>    于是$m = c^d(\operatorname{mod} N)$，这就是我们希望的答案.
 >
-> <br/>
+>   <br/>
 >
 > * hash函数的引入：
 >
->   现在我们想要给别人传送信息$m$，又不希望被非目标人员解开.
+>    现在我们想要给别人传送信息$m$，又不希望被非目标人员解开.
 >
->   我们引入Hash函数$H(m)$（常用的有SHA256, MD5 etc.）
+>    我们引入Hash函数$H(m)$（常用的有SHA256, MD5 etc.）
 >
->   首先用朋友的公钥$(N_0,e_0)$加密出$c$：$c = m^{e_0} (\operatorname{mod} N_0)$
+>    首先用朋友的公钥$(N_0,e_0)$加密出$c$：$c = m^{e_0} (\operatorname{mod} N_0)$
 >
->   然后“签名”：对$H(m)$使用自己的私钥$(N_1,d_1)$加密出新信息$S$：$S = H(m)^{d_1} (\operatorname{mod} N_1)$
+>    然后“签名”：对$H(m)$使用自己的私钥$(N_1,d_1)$加密出新信息$S$：$S = H(m)^{d_1} (\operatorname{mod} N_1)$
 >
->   此时对方如果想要解密，可以：$m = c^{d_0} (\operatorname{mod} N_0)$
+>    此时对方如果想要解密，可以：$m = c^{d_0} (\operatorname{mod} N_0)$
 >
 > * 验证：
 >
->   使用自己的公钥$(N_1,e_1)$解密：如果$H'(m) = S^{e_1} (\operatorname{mod} N_1)$与$H(m)$相等，则验证通过.
+>    使用自己的公钥$(N_1,e_1)$解密：如果$H'(m) = S^{e_1} (\operatorname{mod} N_1)$与$H(m)$相等，则验证通过.
 >
 {: .block-tip }
 
@@ -408,12 +407,7 @@ And please encode your input answers with HEX (remove '0x').
 
 这里$$gcd(e,p-1) \neq 1, gcd(e,q-1) \neq 1$$，所以考虑有限域开方解密：
 
-> ##### TIP
->
-> 有限域开方解密：
->
-> 
->
+> ##### TIP: 有限域开方解密
 >
 {: .block-tip }
 
@@ -561,7 +555,7 @@ payload略
 
 我觉得我是比较愚钝的（哭），可以看出来相关消息攻击讲了之后印象也不深刻，忘完了.
 
-> ##### TIP
+> ##### TIP: 相关消息攻击
 >
 > 相关消息攻击：如果加密的多条消息具有线性相关性，产生的攻击称为相关消息攻击.
 >
@@ -672,9 +666,7 @@ Well done! Here is the flag: ACTF{e3ea2c418757d09a123753de5d865771}
 > 摘自自己的crypto lab1 report
 
 
-> ##### TIP
->
-> DSA签名算法的过程：
+> ##### TIP: DSA签名算法的过程
 >
 > 密钥选取：
 >
@@ -699,12 +691,12 @@ Well done! Here is the flag: ACTF{e3ea2c418757d09a123753de5d865771}
 > 验证过程：
 >
 > 1. 计算辅助值，$w=s^{-1}(\operatorname{mod}q)$
-> 2. 计算辅助值，$u_1=H(m)w$ (mod $q$)
+>2. 计算辅助值，$u_1=H(m)w$ (mod $q$)
 > 3. 计算辅助值，$u_2=rw$ (mod $q$)
 > 4. 计算$v=(g^{u_{1}}y^{u_{2}}\operatorname{mod}p)$ (mod $q$)
 > 5. 如果$v = r$，则校验成功。
->
-{: .block-tip }
+> 
+> {: .block-tip }
 
 ---
 
@@ -748,17 +740,15 @@ s_2 \equiv [(ak+b)\%c>>160]^{-1}(H(m) + xr_2) & (\operatorname{mod} q) \end{case
 
 沉寂已久的Coppersmith出现了，我以为lab2就会用到的，然后想得过于复杂折磨死了自己，但现在还在做单变量Coppersmith的阅读理解.
 
-> ##### TIP
->
-> Coppersmith方法的理论基础：
+> ##### TIP: Coppersmith方法的理论基础
 >
 > * Coppersmith引理：
 >
 >   对mod N下度数为$d$的首一多项式$f$，若$n$是$N$的因子，$n > N^{\beta}, 0 < \beta \leq 1$，则可以**在多项式时间内**求出mod N下$\vert x_0\vert < N^{\frac{\beta^2}{d}}$的根.
 >
 >   * $n = N: \vert x_0\vert < N^{\frac{1}{d}}$
->   * RSA中，$p \approx N^{0.5}$，所以可以求出$ \vert x_0\vert < N^{\frac{1}{4d}}$.
->
+>  * RSA中，$p \approx N^{0.5}$，所以可以求出$ \vert x_0\vert < N^{\frac{1}{4d}}$.
+> 
 > * 单变元的Coppersmith方法：
 >
 >   假设我们有定义在mod M下度数为$d$的整系数首一多项式$f(x) = x^d + \sum\limits_{i = 0}^{d-1} a_ix^i$，如果已知存在$x_0$是$F(x)$的根，即$F(x)\equiv 0 (\operatorname{mod} M)$且满足$\vert x_0\vert < M^{\frac{1}{d}}$，则求确切解$x_0$用到以下的Howgrave-Graham Lemma：
@@ -959,25 +949,24 @@ $ hashcat -a 3 -m 0 496603d6953a15846cd7cc476f146771 LitCTF{md5can?a?a3de?arypt2
 
 重温一下这个点：
 
-> ##### TIP
+> ##### TIP: 中国剩余定理
 >
-> 中国剩余定理：
 > 考虑同余方程
->
-> $$\begin{cases} x \equiv c_1 & (\operatorname{mod} n_1) \\  x \equiv c_2 & (\operatorname{mod} n_2) \\ & \vdots \\ x \equiv c_k & (\operatorname{mod} n_k)\end{cases}$$
->
-> 我们首先计算出$N = n_1 * n_2 *\cdots * n_k$，并得到列表
->
-> $$ N_i = N // n_i$$
->
-> 再算出$N_i$模$n_i$的逆$inv_i$:
->
-> $$inv_i = N_i^{-1} (\operatorname{mod}n_i)$$
->
-> 最后获得余数并对$N$取模，得到最终结果：
->
-> $$x = \sum\limits_{i=1}^r c_i* N_i*inv_i (\operatorname{mod} N)$$
->
+> 
+>$$\begin{cases} x \equiv c_1 & (\operatorname{mod} n_1) \\  x \equiv c_2 & (\operatorname{mod} n_2) \\ & \vdots \\ x \equiv c_k & (\operatorname{mod} n_k)\end{cases}$$
+> 
+>我们首先计算出$N = n_1 * n_2 *\cdots * n_k$，并得到列表
+> 
+>$$ N_i = N // n_i$$
+> 
+>再算出$N_i$模$n_i$的逆$inv_i$:
+> 
+>$$inv_i = N_i^{-1} (\operatorname{mod}n_i)$$
+> 
+>最后获得余数并对$N$取模，得到最终结果：
+> 
+>$$x = \sum\limits_{i=1}^r c_i* N_i*inv_i (\operatorname{mod} N)$$
+> 
 {: .block-tip }
 
 payload:
@@ -1499,7 +1488,7 @@ for i in line1:
 
 记录一下这个博客的知识点：
 
-> ##### TIP
+> ##### TIP: RSA的常用密钥格式
 >
 > 工具：
 >
@@ -1607,7 +1596,7 @@ q = 319576316814478949870590164193048041239
 
 ### EZDLP
 
-> ##### TIP
+> ##### TIP: DLP(离散对数问题)
 >
 > DLP（离散对数问题）：给定 $g^x \equiv y (\operatorname{mod} p)$ 中的 $g,y,p$，其中 $p$为大素数，求解 $x$.
 >
