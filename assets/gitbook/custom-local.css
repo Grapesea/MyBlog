@@ -3,3 +3,10 @@
  * Its purpose is for users of the theme to be able to add css rules from a blank file
  *   these get simply added to the ones already active in the layout.
  */
+
+/* Adjust main content position */
+.page-inner {
+    padding-left: -100px !important;
+    margin-left: 140px !important;
+}
+

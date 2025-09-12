@@ -36,7 +36,7 @@
     min-height: calc(100% - 50px);
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1600px) {
     .book-body .body-inner {
         position: absolute;
         margin-top: 50px;
@@ -83,7 +83,7 @@
 }
 
 .page-inner {
-    max-width: {{ site.page_width | default: '800px' }};
+    max-width: 900px;
 }
 
 .back-to-top {

@@ -85,7 +85,7 @@ nav_links:
   - title: "友链"
     url: "/about/"
 
-page_width: 800px
+page_width: 1200px
 
 destination:      ./_site
 incremental:      false
