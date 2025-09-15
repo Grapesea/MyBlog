@@ -6,7 +6,6 @@
 
 /* Adjust main content position */
 .page-inner {
-    padding-left: -100px !important;
-    margin-left: 140px !important;
+    margin-left: 100px !important;
 }
 
