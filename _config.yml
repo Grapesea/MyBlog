@@ -100,34 +100,11 @@ categories:
   - name: "tools"
     posts:
       - "1970-01-01-build_jekyll"
-      - "1970-01-02-markdown_tips"
-      - "1970-01-03-linux_tips"
-      - "1970-01-04-python_tips"
       - "1971-01-01-How_to_improve_self-discipline"
-  - name: "CS"
-    posts:
-      - "2025-08-01-CS70_25summer"
-      - "2025-08-01-CS188_25spring"
-      - "2025-07-01-ctf"
-      - "2025-06-28-oop"
-      - "2025-06-28-co"
-      - "2025-06-28-ads"
   - name: "senior"
     posts:
       - "2099-10-18-english_experience"
       - "2099-10-18-chinese_experience"
-  - name: "Math_Phy"
-    posts:
-      - "2025-06-28-Pro-and-Sta"
-      - "2025-06-29-discrete_math"
-      - "2025-06-28-general_physics"
-  - name: "exp"
-    posts:
-      - "2025-06-27-experience_1"
-  - name: "Course"
-    posts:
-      - "2025-01-01-mix_resource"
-      - "2025-01-01-course_info_blank"
   - name: "article"
     posts:
       - "2024-12-31-new_year" 
